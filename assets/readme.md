@@ -1,1 +1,0 @@
-You can add images in this folder.
