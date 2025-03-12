@@ -1,7 +1,7 @@
 ---
 title: "Hyperlocal Product Market Fit"
 author: Sneha Kataria
-categories: [analysis]
+categories: [product-management]
 tags: product market fit ideas
 date: 2025-02-15 10:00:00 -0700
 ---
