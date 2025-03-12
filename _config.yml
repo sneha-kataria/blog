@@ -1,0 +1,23 @@
+title: Sneha Kataria
+permalink: /:title.html
+theme: minima
+
+google_analytics: TO_BE_ADDED
+
+description: >-
+  Sneha Kataria's Blog
+
+#url: "https://domain.com/"
+
+header_pages:
+  - all-posts.html
+  - product-management.html
+  - analysis.html
+
+license: "CC BY-NC-ND 4.0"
+license_url: "creativecommons.org/licenses/by-nc-nd/4.0/"
+
+linkedin_username: snehakataria
+github_username: sneha-kataria
+
+show_excerpts: true
