@@ -8,7 +8,7 @@ date: 2024-12-15 10:00:00 -0700
 
 A solution for user to find and order local nearby products based on their preferences in a snap of time and use their time efficiently.
 
-![Home Page](/assets/hyperlocal-product-recommendation/home_page.png)
+![Home Page](/assets/hyperlocal_product_recommendation/home_page.png)
 
 ## 🎯 GOAL
 
@@ -87,72 +87,111 @@ Insights from the user interviews conducted in person. Link to the interview det
 
 **User- 1**
 
-| **Demography** | **Challenges** |
-| --- | --- |
-| • A Busy Professional (30), Male, New York, Med-high income, Single | • Making multiple orders from multiple stores causing extra delivery fees
-• Delivery to wrong address
-• No variety in recommendation system |
-| **Motivation** | **Need** |
-| • Deals and discounts
-• Lower delivery fees | • Platform that provides variety, reliable delivery |
+<table border="1">
+    <tr>
+        <th>Demography</th>
+        <th>Challenges</th>
+    </tr>
+    <tr>
+        <td>
+            • A Busy Professional (30), Male, New York, Med-high income, Single
+        </td>
+        <td>
+            • Making multiple orders from multiple stores causing extra delivery fees<br>
+            • Delivery to wrong address<br>
+            • No variety in recommendation system
+        </td>
+    </tr>
+    <tr>
+        <th>Motivation</th>
+        <th>Need</th>
+    </tr>
+    <tr>
+        <td>
+            • Deals and discounts<br>
+            • Lower delivery fees
+        </td>
+        <td>
+            • Platform that provides variety, reliable delivery
+        </td>
+    </tr>
+</table>
+
 
 **User-2**
 
-| **Demography** | **Challenges** |
-| --- | --- |
-| • Working mom, Female (38), Fort-Worth (Sub-urban), Mid-high income, Family of 4 (with kids) | • Difficult to get good / preferred quality of products
-• Limited options for specialized products
-• Not trustworthy - sponsored products instead of genuinely personalized
-• Too many brands and no information about the nutrition and make about the products |
-| **Motivation** | **Need** |
-| • Better quality | • Platform which provides better quality product with convenience |
+<table>
+  <tr>
+    <th>Demography</th>
+    <th>Challenges</th>
+  </tr>
+  <tr>
+    <td>• Working mom, Female (38), Fort-Worth (Sub-urban), Mid-high income, Family of 4 (with kids)</td>
+    <td>• Difficult to get good / preferred quality of products<br>• Limited options for specialized products<br>• Not trustworthy - sponsored products instead of genuinely personalized<br>• Too many brands and no information about the nutrition and make about the products</td>
+  </tr>
+  <tr>
+    <th>Motivation</th>
+    <th>Need</th>
+  </tr>
+  <tr>
+    <td>• Better quality</td>
+    <td>• Platform which provides better quality product with convenience</td>
+  </tr>
+</table>
 
 ## 👥 COMPETITIVE ANALYSIS
 
-| **Company** | **Strength** | **Weaknesses** | **Opportunities for differentiation** |
-| --- | --- | --- | --- |
-| Doordash | • Focused on two-tier cities areas where no-one catered.
-• Offers customer data insights and other value propositions to partners. | • Heavy reliance on independent contractors or gig workers.
-• Difficulty maintaining its competitive edge while managing costs effectively. | • Drive feature can cater to a broader range of merchants beyond restaurants, including grocery, retail, and other sectors, potentially driving further growth.
-• Consumer data: Third-party delivery providers control consumer data, which limits restaurants' ability to engage with their customers.
-• Optimizing delivery operations with a focus on Dashers to drive efficiency and growth. |
-| Grubhub | • Extensive restaurant network.
-• Innovative marketing strategies. | • Dependence on restaurants.
-• Focuses predominantly on food delivery. | • Onboarding multiple partners of other sectors on the platform.
-• Improvement in recommendation system offering suggestions for diverse needs. |
-| Instacart | • Strong partnership with numerous local and national retail chains.
-• 24/7 customer support through their website and social media platforms.
-• Strong foothold in grocery delivery. | • Delivery is costly
-• Search results are often broken and do not show accurate output
-• You get bad shoppers if you’re not tipping well | • Delivery is costly |
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Strength</th>
+    <th>Weaknesses</th>
+    <th>Opportunities for differentiation</th>
+  </tr>
+  <tr>
+    <td>Doordash</td>
+    <td>• Focused on two-tier cities areas where no-one catered.<br>• Offers customer data insights and other value propositions to partners.</td>
+    <td>• Heavy reliance on independent contractors or gig workers.<br>• Difficulty maintaining its competitive edge while managing costs effectively.</td>
+    <td>• Drive feature can cater to a broader range of merchants beyond restaurants, including grocery, retail, and other sectors, potentially driving further growth.<br>• Consumer data: Third-party delivery providers control consumer data, which limits restaurants' ability to engage with their customers.<br>• Optimizing delivery operations with a focus on Dashers to drive efficiency and growth.</td>
+  </tr>
+  <tr>
+    <td>Grubhub</td>
+    <td>• Extensive restaurant network.<br>• Innovative marketing strategies.</td>
+    <td>• Dependence on restaurants.<br>• Focuses predominantly on food delivery.</td>
+    <td>• Onboarding multiple partners of other sectors on the platform.<br>• Improvement in recommendation system offering suggestions for diverse needs.</td>
+  </tr>
+  <tr>
+    <td>Instacart</td>
+    <td>• Strong partnership with numerous local and national retail chains.<br>• 24/7 customer support through their website and social media platforms.<br>• Strong foothold in grocery delivery.</td>
+    <td>• Delivery is costly<br>• Search results are often broken and do not show accurate output<br>• You get bad shoppers if you’re not tipping well</td>
+    <td>• Delivery is costly</td>
+  </tr>
+</table>
 
 ## INSIGHTS FROM USER RESEARCH AND COMPETITIVE ANALYSIS AND VALIDATION CHECK LIST
 
-| **Problem** | **Validation** |
-| --- | --- |
-| **Delivery Issues**
-• Unreliable delivery times.
-• Wrong or missing items in order delivery.
-• Delivery to wrong or incomplete destinations.
-• Poor communication with delivery personnel.
-• Items left in unsafe or inconvenient locations (e.g., lobby, sidewalk). | “One delivery guy told me I could find my groceries on the sidewalk in front of my building.”
-“Driver claimed they knocked, but nobody approached my door. Checked the camera, no one came.” |
-| **Relevance and Accuracy**
-• Irrelevant Recommendations: Users receive suggestions for products or content that do not match their interests or recent activity.
-• Overly Generic Recommendations: Repeatedly showing the same products or generic options that lack personalization.
-• Poor Context Understanding: Recommendations fail to account for nuanced search terms, preferences, or user behavior. | ““The app keeps suggesting items I’ve already bought instead of showing me new options.”
-“It feels like I’m stuck in a loop— every time I open the platform, it shows the same set of recommendations. Where is the personalisation or variety?” |
-| **Price and Fees**
-• High delivery fees making orders expensive.
-• Price discrepancies between app and in-store.
-• Hidden fees that inflate the final cost (e.g., tax, delivery fee, tips). | “I found Instacart deceptive and expensive; like, the prices may be "okay", but then factor in the tax, delivery fee, heavy item fee, tip, some other random fees.”
-“I have an Instacart membership and almost never use it now because it ends up being so much more expensive than going to the grocery store.” |
-| **Search and Inventory Issues**
-• Inaccurate search results (e.g., irrelevant or no items found).
-• Limited product availability in the app compared to the store.
-• No ability to use search modifiers (e.g., “-chocolate”).
-• Incorrect or outdated inventory information. | if I search Christmas fuzzy socks - for some reason it thinks I meant "chocolate" and only gives me chocolate items.”
-“I search for the shorts by the name I got from the app itself and the shorts don't show up.” |
+<table>
+  <tr>
+    <th>Problem</th>
+    <th>Validation</th>
+  </tr>
+  <tr>
+    <td><strong>Delivery Issues</strong><br>• Unreliable delivery times.<br>• Wrong or missing items in order delivery.<br>• Delivery to wrong or incomplete destinations.<br>• Poor communication with delivery personnel.<br>• Items left in unsafe or inconvenient locations (e.g., lobby, sidewalk).</td>
+    <td>“One delivery guy told me I could find my groceries on the sidewalk in front of my building.”<br>“Driver claimed they knocked, but nobody approached my door. Checked the camera, no one came.”</td>
+  </tr>
+  <tr>
+    <td><strong>Relevance and Accuracy</strong><br>• Irrelevant Recommendations: Users receive suggestions for products or content that do not match their interests or recent activity.<br>• Overly Generic Recommendations: Repeatedly showing the same products or generic options that lack personalization.<br>• Poor Context Understanding: Recommendations fail to account for nuanced search terms, preferences, or user behavior.</td>
+    <td>“The app keeps suggesting items I’ve already bought instead of showing me new options.”<br>“It feels like I’m stuck in a loop— every time I open the platform, it shows the same set of recommendations. Where is the personalisation or variety?”</td>
+  </tr>
+  <tr>
+    <td><strong>Price and Fees</strong><br>• High delivery fees making orders expensive.<br>• Price discrepancies between app and in-store.<br>• Hidden fees that inflate the final cost (e.g., tax, delivery fee, tips).</td>
+    <td>“I found Instacart deceptive and expensive; like, the prices may be 'okay', but then factor in the tax, delivery fee, heavy item fee, tip, some other random fees.”<br>“I have an Instacart membership and almost never use it now because it ends up being so much more expensive than going to the grocery store.”</td>
+  </tr>
+  <tr>
+    <td><strong>Search and Inventory Issues</strong><br>• Inaccurate search results (e.g., irrelevant or no items found).<br>• Limited product availability in the app compared to the store.<br>• No ability to use search modifiers (e.g., “-chocolate”).<br>• Incorrect or outdated inventory information.</td>
+    <td>“If I search Christmas fuzzy socks - for some reason it thinks I meant 'chocolate' and only gives me chocolate items.”<br>“I search for the shorts by the name I got from the app itself and the shorts don't show up.”</td>
+  </tr>
+</table>
 
 ## 😢PROBLEM STATEMENTS
 **Delivery Inefficiency**
@@ -174,13 +213,52 @@ Users face issue with ordering multiple products from multiple stores because of
 User find a lack of information about product description among similar products due to incomplete details listed on the platform and no price comparisons between stores saving money for the user, causes confusion and makes it tedious for user to find the right product.
 
 ## 🍚 PRIORITISATION BASED ON RICE FRAMEWORK
-
-| Problem | Reach | Impact | Confidence | Effort | RICE Score |
-| --- | --- | --- | --- | --- | --- |
-| Delivery Inefficiency | 9 | 10 | 10 | 10 | 90 |
-| Product Discovery and recommendation | 8 | 9 | 8 | 8 | 72 |
-| Product ordering and inventory management | 6 | 7 | 8 | 7 | 48 |
-| Inaccurate product information and price comparison | 4 | 4 | 5 | 6 | 13.333333 |
+<table>
+  <thead>
+    <tr>
+      <th>Problem</th>
+      <th>Reach</th>
+      <th>Impact</th>
+      <th>Confidence</th>
+      <th>Effort</th>
+      <th>RICE Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Delivery Inefficiency</td>
+      <td>9</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>90</td>
+    </tr>
+    <tr>
+      <td>Product Discovery and Recommendation</td>
+      <td>8</td>
+      <td>9</td>
+      <td>8</td>
+      <td>8</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <td>Product Ordering and Inventory Management</td>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+      <td>7</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <td>Inaccurate Product Information and Price Comparison</td>
+      <td>4</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>13.33</td>
+    </tr>
+  </tbody>
+</table>
 
 ### **Hypothesis structure:**
 
@@ -204,15 +282,44 @@ For users, our MVP provides improved search results with AI- personalized recomm
 
 ## **Core Features:**
 
-| Feature | Description |
-| --- | --- |
-| 1. Recommendation feature | AI-personalised suggestions based on user preferences and search history. |
-| 1. Price comparison feature | Resulting in showing everyday low prices across the store for a particular product. |
-| 1. Live Inventory Update | Real-time Updation of OOS items for more transparency in product availability. |
-| 1. Better Search results | Accurate search results by recommending relevant keyword for search bar. |
-| 1. Efficient Delivery update using AI- optimisation | Real-time optimisation of routes using ai for generating shortest route to destination for quick delivery. |
-| 1. Local warehouse set-up | Setting up small warehouses locally in areas based on order demands and location. |
-| 1. Deals and Discounts | Gamification of deals and passes for better engagement and experience. |
+<table>
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Recommendation feature</td>
+      <td>AI-personalised suggestions based on user preferences and search history.</td>
+    </tr>
+    <tr>
+      <td>Price comparison feature</td>
+      <td>Resulting in showing everyday low prices across the store for a particular product.</td>
+    </tr>
+    <tr>
+      <td>Live Inventory Update</td>
+      <td>Real-time Updation of OOS items for more transparency in product availability.</td>
+    </tr>
+    <tr>
+      <td>Better Search results</td>
+      <td>Accurate search results by recommending relevant keywords for the search bar.</td>
+    </tr>
+    <tr>
+      <td>Efficient Delivery update using AI-optimisation</td>
+      <td>Real-time optimisation of routes using AI for generating the shortest route to the destination for quick delivery.</td>
+    </tr>
+    <tr>
+      <td>Local warehouse set-up</td>
+      <td>Setting up small warehouses locally in areas based on order demands and location.</td>
+    </tr>
+    <tr>
+      <td>Deals and Discounts</td>
+      <td>Gamification of deals and passes for better engagement and experience.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## **FEATURE PRIORITISATION LIST (USING Moscow method)**
 
@@ -242,9 +349,9 @@ For users, our MVP provides improved search results with AI- personalized recomm
 
 ### Feature Request Sample :
 
-![product_detail_page_search_page.png](/assets/hyperlocal-product-recommendation/product_detail_page_search_page.png)
+![product_detail_page_search_page.png](/assets/hyperlocal_product_recommendation/product_detail_page_search_page.png)
 
-![Tracking Order Screenshot](/assets/hyperlocal-product-recommendation/tracking_order.png)
+![Tracking Order Screenshot](/assets/hyperlocal_product_recommendation/tracking_order.png)
 
 ## ⭐ NORTH STAR METRICS
 
@@ -254,21 +361,20 @@ It tracks user engagement, ensuring the app has strong active user base, especia
 
 ## SECONDARY METRICS
 
-| Adoption rate: Number of users downloaded the app and made an account. | Weekly, monthly, quarterly | 20% initial engagement and signups |
-| --- | --- | --- |
-| Auto search word prediction: How much the search is made with auto-search suggestions. | Monthly | Using the predicted keyword at least once per product search. 
-And Multiple search suggestions used by the user in 3 months for deeper engagement. |
-| Impressions: Number of times a recommended product is displayed to potential customers and is ordered/added to cart. | Weekly, monthly | Minimum One recommended product is added to the cart per order. |
-| Engagement rate: Level of interaction with the recommended product listing. | Weekly, monthly, quarterly | Using recommendation feature for first time and multiple times over the next orders. |
-| Sales conversion rate:Percentage of user who completed a purchase, a core metric to track overall sales performance.
-| Weekly, monthly | 20% users making 2 weekly sales using recommended items at least once while ordering. |
-| Average order value: Average amount spent per customer purchase. | Quarterly
-| Order value of 25$ or more. |
+| Adoption rate: Number of users downloaded the app and made an account.                                                                   | Weekly, monthly, quarterly | 20% initial engagement and signups |
+|------------------------------------------------------------------------------------------------------------------------------------------| --- | --- |
+| Auto search word prediction: How much the search is made with auto-search suggestions.                                                   | Monthly | Using the predicted keyword at least once per product search. 
+ And Multiple search suggestions used by the user in 3 months for deeper engagement.                                                      |
+| Impressions: Number of times a recommended product is displayed to potential customers and is ordered/added to cart.                     | Weekly, monthly | Minimum One recommended product is added to the cart per order. |
+| Engagement rate: Level of interaction with the recommended product listing.                                                              | Weekly, monthly, quarterly | Using recommendation feature for first time and multiple times over the next orders. |
+| Sales conversion rate:Percentage of user who completed a purchase, a core metric to track overall sales performance.                     
+| Weekly, monthly                                                                                                                          | 20% users making 2 weekly sales using recommended items at least once while ordering. |
+| Average order value: Average amount spent per customer purchase.                                                                         | Quarterly
+| Order value of 25$ or more.                                                                                                              |
 | Return rate: Percentage of users who leave a website after viewing only one page, indicating potential issues with product page content. | Quarterly | 40% of users returning for another session within 7 days |
-| Churn Rate: Percentage of customers that leave over a period of time. | Monthly | 5% decrease in drop-off in user workflow. |
-| CTR recommendation click through rate. | Weekly | 10% increase in recommendation feature clicks over total impressions. |
-| Customer retention rate: Percentage of customers who make repeat purchases, highlighting customer loyalty | Monthly
-| 60% of users returning for another session within 7 days |
-| NPS Score:
-Measurement of customer loyalty based on how likely they are to recommend your product to others. | Monthly /Quarterly | Gradual increase in User satisfaction with the recommended products. |
-| Referrals and feedback |  | Using referrals to invite their friends, leaving 4+ stars rating for the app, Providing user feedback. |
+| Churn Rate: Percentage of customers that leave over a period of time.                                                                    | Monthly | 5% decrease in drop-off in user workflow. |
+| CTR recommendation click through rate.                                                                                                   | Weekly | 10% increase in recommendation feature clicks over total impressions. |
+| Customer retention rate: Percentage of customers who make repeat purchases, highlighting customer loyalty                                | Monthly
+| 60% of users returning for another session within 7 days                                                                                 |
+| NPS Score: Measurement of customer loyalty based on how likely they are to recommend your product to others.                             | Monthly /Quarterly | Gradual increase in User satisfaction with the recommended products. |
+| Referrals and feedback                                                                                                                   |  | Using referrals to invite their friends, leaving 4+ stars rating for the app, Providing user feedback. |
