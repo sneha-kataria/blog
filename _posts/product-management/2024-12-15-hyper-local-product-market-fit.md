@@ -8,7 +8,7 @@ date: 2024-12-15 10:00:00 -0700
 
 A solution for user to find and order local nearby products based on their preferences in a snap of time and use their time efficiently.
 
-![Home Page](/assets/hyperlocal_product_recommendation/home_page.png)
+![Home Page](/blog/assets/hyperlocal_product_recommendation/home_page.png)
 
 ## 🎯 GOAL
 
@@ -349,9 +349,9 @@ For users, our MVP provides improved search results with AI- personalized recomm
 
 ### Feature Request Sample :
 
-![product_detail_page_search_page.png](/assets/hyperlocal_product_recommendation/product_detail_page_search_page.png)
+![product_detail_page_search_page.png](/blog/assets/hyperlocal_product_recommendation/product_detail_page_search_page.png)
 
-![Tracking Order Screenshot](/assets/hyperlocal_product_recommendation/tracking_order.png)
+![Tracking Order Screenshot](/blog/assets/hyperlocal_product_recommendation/tracking_order.png)
 
 ## ⭐ NORTH STAR METRICS
 
