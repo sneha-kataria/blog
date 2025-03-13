@@ -6,7 +6,8 @@ tags: product market fit ideas travel ideas recommendation engine search AI
 date: 2024-12-01 10:00:00 -0700
 ---
 
-AIRBNB - PROPOSING AI-GENERATED RECOMMENDATION UPDATE
+Over-whelmed by the hundreds of options and search categories, providing a personalised suggestion bar based on user
+preferences and booking history.
 
 ![Home Page](/blog/assets/airbnb_proposal_recommendation/home_page.png)
 
@@ -143,11 +144,11 @@ and data usage practices, ensuring transparency and compliance with data protect
 
 
 ⏳ User Flow
-![Home Page](/blog/assets/airbnb_proposal_recommendation/user_flow.jpg)
+![User Flow](/blog/assets/airbnb_proposal_recommendation/user_flow.jpg)
 
 
 🧵 Sample Screen
-![Home Page](/blog/assets/airbnb_proposal_recommendation/airbnb_sample_recommendation_screen.pdf)
+![Sample Screen](/blog/assets/airbnb_proposal_recommendation/airbnb_sample_recommendation_screen.png)
 
 
 
