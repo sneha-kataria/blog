@@ -15,15 +15,29 @@ engagement across the globe.
 
 **BACKGROUND**
 
-YouTube is the world’s leading video-sharing platform, boasting 122 million daily active users from diverse linguistic and cultural backgrounds. It serves as a dynamic hub for users to enhance their businesses, acquire knowledge, and explore new skills through its extensive video library. However, a significant challenge persists: the limited availability of content in various regional languages. This language barrier often hampers users’ ability to fully understand and engage with the platform's vast resources, restricting its accessibility and impact across diverse audiences.
+YouTube is the world’s leading video-sharing platform, boasting 122 million daily active users from diverse linguistic
+and cultural backgrounds. It serves as a dynamic hub for users to enhance their businesses, acquire knowledge, and
+explore new skills through its extensive video library. However, a significant challenge persists: the limited
+availability of content in various regional languages. This language barrier often hampers users’ ability to fully
+understand and engage with the platform's vast resources, restricting its accessibility and impact across diverse
+audiences.
 
 **PROBLEM STATEMENT**
 
-YouTube currently supports only 80 languages, offering limited options for subtitles and translations. This restricts many users from accessing content in their preferred languages, creating an inconvenient and fragmented experience. User research reveals that individuals often resort to creating multiple profiles to consume content in their desired language, further limiting their ability to fully leverage YouTube's services. To address this, we aim to develop an AI-powered feature that translates any YouTube video into the user’s selected language, enabling a seamless, personalized, and inclusive content consumption experience.
+YouTube currently supports only 80 languages, offering limited options for subtitles and translations. This restricts
+many users from accessing content in their preferred languages, creating an inconvenient and fragmented experience.
+User research reveals that individuals often resort to creating multiple profiles to consume content in their desired
+language, further limiting their ability to fully leverage YouTube's services. To address this, we aim to develop an
+AI-powered feature that translates any YouTube video into the user’s selected language, enabling a seamless,
+personalized, and inclusive content consumption experience.
 
 **HIGH LEVEL APPROACH**
 
-The proposed approach aims to eliminate language barriers on YouTube, empowering more users and businesses to leverage the platform effectively while driving greater reach and inclusivity. By enabling users to access any content worldwide in their preferred language through an AI-powered translation feature, this enhancement will significantly boost engagement. It will create a seamless and enjoyable experience for users, making content consumption more accessible, personalized, and impactful.
+The proposed approach aims to eliminate language barriers on YouTube, empowering more users and businesses to leverage
+the platform effectively while driving greater reach and inclusivity. By enabling users to access any content worldwide
+in their preferred language through an AI-powered translation feature, this enhancement will significantly boost
+engagement. It will create a seamless and enjoyable experience for users, making content consumption more accessible,
+personalized, and impactful.
 
 **GOALS**
 
@@ -32,17 +46,18 @@ The proposed approach aims to eliminate language barriers on YouTube, empowering
 - Enable viewers to watch videos in their preferred language through AI-powered audio translations and captions, improving user satisfaction.
 - Foster inclusivity by engaging users who primarily communicate in regional languages, ensuring they feel valued and included on the platform.
 - Increase user engagement by making global content accessible and enjoyable, creating a more connected and seamless experience.
--
 
 **NON- GOALS**
 
-The auto-generative feature is limited to translating content audio and captions only. It does not extend to translating user comments in the comment section.
+The auto-generative feature is limited to translating content audio and captions only. It does not extend to
+translating user comments in the comment section.
 
 **ASSUMPTIONS**
 
 - Users face challenges in reaching a broader audience due to the limited availability of language options for content.
 
-- The auto-generative feature will provide a platform for all users to express themselves, ensuring inclusivity without compromising sensitive information.
+- The auto-generative feature will provide a platform for all users to express themselves, ensuring inclusivity without
+- compromising sensitive information.
 
 - The feature will adhere to privacy laws and compliance regulations, maintaining user trust and data security.
 

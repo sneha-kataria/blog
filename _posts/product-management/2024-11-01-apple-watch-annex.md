@@ -9,7 +9,7 @@ date: 2024-11-01 10:00:00 -0700
 A new apple watch application that analyses your activity and offers insights about the anxiety.
 Helps manage an anxiety attack anywhere, anytime.
 
-![Home Page](/blog/assets/apple_watch/home_page.png)
+![Home Page](/blog/assets/apple_watch/home_page.jpg)
 
 ## **PRESS RELEASE**
 
