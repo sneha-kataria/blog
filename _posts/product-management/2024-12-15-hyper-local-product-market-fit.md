@@ -40,9 +40,21 @@ The hyperlocal delivery industry was worth USD 1,324 billion in 2019 and is expe
 
 **For United States:**
 
-| **Countries** | Forecast CAGR (2024 to 2034) |
-| --- | --- |
-| **The United States** | 19.40% |
+<table>
+  <thead>
+    <tr>
+      <th>Countries</th>
+      <th>Forecast CAGR (2024 to 2034)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>The United States</td>
+      <td>19.40%</td>
+    </tr>
+  </tbody>
+</table>
+
 
 The North American region is anticipated to account for the largest share of the global hyperlocal services market. The growing use of modern technology in daily life is a major driving force in North America, and it is predicted to boost the overall market expansion of the online hyper-local services market over the forecast period.
 
@@ -323,29 +335,117 @@ For users, our MVP provides improved search results with AI- personalized recomm
 
 ## **FEATURE PRIORITISATION LIST (USING Moscow method)**
 
-| **FEATURE** | **PURPOSE / SOLUTION** | **PRIORITY** |
-| --- | --- | --- |
-| Login/Sign-up | Allows user to Login/Signup in the app securely. | MUST-HAVE |
-| Onboarding guides | Guides/ Pop-ups to direct the onboarding flow of the user. | MUST-HAVE |
-| Selective 5-products preference | To allow user to select preferred 5- product categories to provide initial recommendations. | SHOULD-HAVE |
-| Smart Search keyword | Auto-suggesting of keyword for user to search accurately with right filters and categories. | MUST-HAVE |
-| Recommendation and Suggestions | Recommendations of products based on user preference, buying history and location of the user to boost engagement. | MUST-HAVE |
-| Product Search with image and description | Providing actual image of the product along with the accurate description for better search results. | SHOULD-HAVE |
-| Price comparison/Daily deals & discounts | Results showing low prices across stores, occasional discounts, and good grab the deal offers for saving some bucks for the user. | MUST-HAVE |
-| Live Inventory updates | Real time Updation of stock making inventory management process smooth for the local businesses and the users. | MUST-HAVE |
-| Flexible order system | Letting user order from multiple stores without incurring additional charges and minimum order limits. | MUST-HAVE |
-| Real-time order tracking | Real time GPS- tracking and getting notifications for on-time deliveries. | MUST-HAVE |
-| Optimisation of routes | AI-optimized route suggestions to the delivery partner for early deliveries. | MUST-HAVE |
-| Correct delivery ETA prediction | Exact delivery time prediction based on the route selected by the delivery partner to avoid delays and disappointment. | MUST-HAVE |
-| Quality assurance measure | Delivering the fresh products and providing replacements and refunds to build more trust in the company. | MUST-HAVE |
-| Subscription plans and rewards | Recurring daily/weekly based subscriptions and rewards for 100 order completion for attracting cost-sensitive users. | SHOULD-HAVE |
-| Push notifications | Notifying the user about the daily deals and low prices to make the process cost effective for the user. | SHOULD-HAVE |
-| Hyperlocal warehousing | Setting up warehouses locally in areas based on order demands and location. | COULD-HAVE |
-| Multi-payment option | Providing flexible payment options like card, google pay, apple pay or wallet for convenience. | SHOULD-HAVE |
-| User profile management/ Updation | Letting user add or update their personal information, address etc. | MUST-HAVE |
-| Wishlist | Allowing making Wishlist for saving and buying it later items for future purchases. | COULD-HAVE |
-| Customer Support & Help | Providing the user to connect with the brand for any issues or resolutions over the chat or call and FAQs. | MUST-HAVE |
-|  | . |  |
+<table>
+  <thead>
+    <tr>
+      <th>FEATURE</th>
+      <th>PURPOSE / SOLUTION</th>
+      <th>PRIORITY</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Login/Sign-up</td>
+      <td>Allows user to Login/Signup in the app securely.</td>
+      <td>MUST-HAVE</td>
+    </tr>
+    <tr>
+      <td>Onboarding guides</td>
+      <td>Guides/ Pop-ups to direct the onboarding flow of the user.</td>
+      <td>MUST-HAVE</td>
+    </tr>
+    <tr>
+      <td>Selective 5-products preference</td>
+      <td>To allow user to select preferred 5- product categories to provide initial recommendations.</td>
+      <td>SHOULD-HAVE</td>
+    </tr>
+    <tr>
+      <td>Smart Search keyword</td>
+      <td>Auto-suggesting of keyword for user to search accurately with right filters and categories.</td>
+      <td>MUST-HAVE</td>
+    </tr>
+    <tr>
+      <td>Recommendation and Suggestions</td>
+      <td>Recommendations of products based on user preference, buying history and location of the user to boost engagement.</td>
+      <td>MUST-HAVE</td>
+    </tr>
+    <tr>
+      <td>Product Search with image and description</td>
+      <td>Providing actual image of the product along with the accurate description for better search results.</td>
+      <td>SHOULD-HAVE</td>
+    </tr>
+    <tr>
+      <td>Price comparison/Daily deals & discounts</td>
+      <td>Results showing low prices across stores, occasional discounts, and good grab the deal offers for saving some bucks for the user.</td>
+      <td>MUST-HAVE</td>
+    </tr>
+    <tr>
+      <td>Live Inventory updates</td>
+      <td>Real time Updation of stock making inventory management process smooth for the local businesses and the users.</td>
+      <td>MUST-HAVE</td>
+    </tr>
+    <tr>
+      <td>Flexible order system</td>
+      <td>Letting user order from multiple stores without incurring additional charges and minimum order limits.</td>
+      <td>MUST-HAVE</td>
+    </tr>
+    <tr>
+      <td>Real-time order tracking</td>
+      <td>Real time GPS- tracking and getting notifications for on-time deliveries.</td>
+      <td>MUST-HAVE</td>
+    </tr>
+    <tr>
+      <td>Optimisation of routes</td>
+      <td>AI-optimized route suggestions to the delivery partner for early deliveries.</td>
+      <td>MUST-HAVE</td>
+    </tr>
+    <tr>
+      <td>Correct delivery ETA prediction</td>
+      <td>Exact delivery time prediction based on the route selected by the delivery partner to avoid delays and disappointment.</td>
+      <td>MUST-HAVE</td>
+    </tr>
+    <tr>
+      <td>Quality assurance measure</td>
+      <td>Delivering the fresh products and providing replacements and refunds to build more trust in the company.</td>
+      <td>MUST-HAVE</td>
+    </tr>
+    <tr>
+      <td>Subscription plans and rewards</td>
+      <td>Recurring daily/weekly based subscriptions and rewards for 100 order completion for attracting cost-sensitive users.</td>
+      <td>SHOULD-HAVE</td>
+    </tr>
+    <tr>
+      <td>Push notifications</td>
+      <td>Notifying the user about the daily deals and low prices to make the process cost effective for the user.</td>
+      <td>SHOULD-HAVE</td>
+    </tr>
+    <tr>
+      <td>Hyperlocal warehousing</td>
+      <td>Setting up warehouses locally in areas based on order demands and location.</td>
+      <td>COULD-HAVE</td>
+    </tr>
+    <tr>
+      <td>Multi-payment option</td>
+      <td>Providing flexible payment options like card, google pay, apple pay or wallet for convenience.</td>
+      <td>SHOULD-HAVE</td>
+    </tr>
+    <tr>
+      <td>User profile management/ Updation</td>
+      <td>Letting user add or update their personal information, address etc.</td>
+      <td>MUST-HAVE</td>
+    </tr>
+    <tr>
+      <td>Wishlist</td>
+      <td>Allowing making Wishlist for saving and buying it later items for future purchases.</td>
+      <td>COULD-HAVE</td>
+    </tr>
+    <tr>
+      <td>Customer Support & Help</td>
+      <td>Providing the user to connect with the brand for any issues or resolutions over the chat or call and FAQs.</td>
+      <td>MUST-HAVE</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Feature Request Sample :
 
@@ -361,20 +461,75 @@ It tracks user engagement, ensuring the app has strong active user base, especia
 
 ## SECONDARY METRICS
 
-| Adoption rate: Number of users downloaded the app and made an account.                                                                   | Weekly, monthly, quarterly | 20% initial engagement and signups |
-|------------------------------------------------------------------------------------------------------------------------------------------| --- | --- |
-| Auto search word prediction: How much the search is made with auto-search suggestions.                                                   | Monthly | Using the predicted keyword at least once per product search. 
- And Multiple search suggestions used by the user in 3 months for deeper engagement.                                                      |
-| Impressions: Number of times a recommended product is displayed to potential customers and is ordered/added to cart.                     | Weekly, monthly | Minimum One recommended product is added to the cart per order. |
-| Engagement rate: Level of interaction with the recommended product listing.                                                              | Weekly, monthly, quarterly | Using recommendation feature for first time and multiple times over the next orders. |
-| Sales conversion rate:Percentage of user who completed a purchase, a core metric to track overall sales performance.                     
-| Weekly, monthly                                                                                                                          | 20% users making 2 weekly sales using recommended items at least once while ordering. |
-| Average order value: Average amount spent per customer purchase.                                                                         | Quarterly
-| Order value of 25$ or more.                                                                                                              |
-| Return rate: Percentage of users who leave a website after viewing only one page, indicating potential issues with product page content. | Quarterly | 40% of users returning for another session within 7 days |
-| Churn Rate: Percentage of customers that leave over a period of time.                                                                    | Monthly | 5% decrease in drop-off in user workflow. |
-| CTR recommendation click through rate.                                                                                                   | Weekly | 10% increase in recommendation feature clicks over total impressions. |
-| Customer retention rate: Percentage of customers who make repeat purchases, highlighting customer loyalty                                | Monthly
-| 60% of users returning for another session within 7 days                                                                                 |
-| NPS Score: Measurement of customer loyalty based on how likely they are to recommend your product to others.                             | Monthly /Quarterly | Gradual increase in User satisfaction with the recommended products. |
-| Referrals and feedback                                                                                                                   |  | Using referrals to invite their friends, leaving 4+ stars rating for the app, Providing user feedback. |
+<table border="1">
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Frequency</th>
+      <th>Goal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Adoption rate: Number of users downloaded the app and made an account.</td>
+      <td>Weekly, monthly, quarterly</td>
+      <td>20% initial engagement and signups</td>
+    </tr>
+    <tr>
+      <td>Auto search word prediction: How much the search is made with auto-search suggestions.</td>
+      <td>Monthly</td>
+      <td>Using the predicted keyword at least once per product search. And multiple search suggestions used by the user in 3 months for deeper engagement.</td>
+    </tr>
+    <tr>
+      <td>Impressions: Number of times a recommended product is displayed to potential customers and is ordered/added to cart.</td>
+      <td>Weekly, monthly</td>
+      <td>Minimum one recommended product is added to the cart per order.</td>
+    </tr>
+    <tr>
+      <td>Engagement rate: Level of interaction with the recommended product listing.</td>
+      <td>Weekly, monthly, quarterly</td>
+      <td>Using recommendation feature for the first time and multiple times over the next orders.</td>
+    </tr>
+    <tr>
+      <td>Sales conversion rate: Percentage of users who completed a purchase, a core metric to track overall sales performance.</td>
+      <td>Weekly, monthly</td>
+      <td>20% of users making 2 weekly sales using recommended items at least once while ordering.</td>
+    </tr>
+    <tr>
+      <td>Average order value: Average amount spent per customer purchase.</td>
+      <td>Quarterly</td>
+      <td>Order value of $25 or more.</td>
+    </tr>
+    <tr>
+      <td>Return rate: Percentage of users who leave a website after viewing only one page, indicating potential issues with product page content.</td>
+      <td>Quarterly</td>
+      <td>40% of users returning for another session within 7 days.</td>
+    </tr>
+    <tr>
+      <td>Churn Rate: Percentage of customers that leave over a period of time.</td>
+      <td>Monthly</td>
+      <td>5% decrease in drop-off in user workflow.</td>
+    </tr>
+    <tr>
+      <td>CTR recommendation click-through rate.</td>
+      <td>Weekly</td>
+      <td>10% increase in recommendation feature clicks over total impressions.</td>
+    </tr>
+    <tr>
+      <td>Customer retention rate: Percentage of customers who make repeat purchases, highlighting customer loyalty.</td>
+      <td>Monthly</td>
+      <td>60% of users returning for another session within 7 days.</td>
+    </tr>
+    <tr>
+      <td>NPS Score: Measurement of customer loyalty based on how likely they are to recommend your product to others.</td>
+      <td>Monthly / Quarterly</td>
+      <td>Gradual increase in user satisfaction with the recommended products.</td>
+    </tr>
+    <tr>
+      <td>Referrals and feedback</td>
+      <td></td>
+      <td>Using referrals to invite their friends, leaving 4+ stars rating for the app, providing user feedback.</td>
+    </tr>
+  </tbody>
+</table>
+
