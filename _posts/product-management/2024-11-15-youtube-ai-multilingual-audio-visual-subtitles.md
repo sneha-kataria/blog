@@ -1,8 +1,14 @@
 ---
 title: "YOUTUBE: AI-GENERATED MULTILINGUAL AUDIO AND VISUAL SUBTITLES"
 author: Sneha Kataria
-categories: [product-management]
-tags: product market fit ideas youtube ideas AI generated search engine language
+categories: 
+  - product-management
+tags: 
+  - product market fit 
+  - ideas 
+  - youtube 
+  - AI generated 
+  - search engine language
 date: 2024-11-15 10:00:00 -0700
 ---
 

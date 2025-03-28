@@ -1,8 +1,12 @@
 ---
 title: "SQL For Product Manager"
 author: Sneha Kataria
-categories: [analysis]
-tags: analysis sql basics
+categories: 
+  - analysis
+tags: 
+  - analysis 
+  - sql 
+  - basics
 date: 2025-02-22 10:00:00 -0700
 ---
 

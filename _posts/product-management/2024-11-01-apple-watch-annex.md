@@ -1,8 +1,16 @@
 ---
 title: "APPLE WATCH - ANEX APP - Press Release"
 author: Sneha Kataria
-categories: [product-management]
-tags: product market fit ideas apple watch press release ideas mental health anxiety
+categories: 
+  - product-management
+tags: 
+  - product market 
+  - fit 
+  - ideas 
+  - apple watch
+  - press release 
+  - mental health 
+  - anxiety
 date: 2024-11-01 10:00:00 -0700
 ---
 

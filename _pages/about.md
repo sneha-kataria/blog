@@ -1,12 +1,11 @@
 ---
-layout: home
-author: Sneha Kataria
-tags: Sneha Kataria Product Manager
+permalink: /about/
+title: "About"
 ---
 
 Hi, I'm Sneha!
 
-With seven years of experience in the **customer-facing industry**, I bring a strategic and results-driven approach to 
+With seven years of experience in the **customer-facing industry**, I bring a strategic and results-driven approach to
 product management.
 
 Proven track record of directing **cross-functional teams** to align strategies with business goals and industry trends.

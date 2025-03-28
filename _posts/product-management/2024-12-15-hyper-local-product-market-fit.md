@@ -1,8 +1,13 @@
 ---
 title: "PRODUCT MARKET FIT - Hyperlocal product recommendation engine"
 author: Sneha Kataria
-categories: [product-management]
-tags: product market fit ideas e-commerce recommendation engine search AI
+categories: 
+  - product-management
+tags: 
+  - product market fit 
+  - ideas 
+  - e-commerce 
+  - recommendation engine search AI
 date: 2024-12-15 10:00:00 -0700
 ---
 
