@@ -1,7 +1,6 @@
 title: Sneha Kataria
 permalink: /:title.html
-#theme: minima
-theme: minimal-mistakes-jekyll
+theme: minima
 
 google_analytics: G-K52C9QRRNY
 
