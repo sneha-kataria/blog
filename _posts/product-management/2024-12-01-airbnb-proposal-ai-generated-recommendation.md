@@ -2,7 +2,7 @@
 title: "AIRBNB - PROPOSING AI-GENERATED RECOMMENDATION UPDATE"
 author: Sneha Kataria
 categories: 
-  - product-management]
+  - product-management
 tags: 
   - product market fit 
   - ideas 
