@@ -1,7 +1,7 @@
 title: Sneha Kataria
 permalink: /:title.html
 #theme: minima
-remote_theme: mmistakes/minimal-mistakes
+theme: minimal-mistakes-jekyll
 
 google_analytics: G-K52C9QRRNY
 
@@ -25,9 +25,6 @@ email: snehakataria1244@gmail.com
 show_excerpts: true
 
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
+  - jekyll-remote-theme
   - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
+  - jekyll-seo-tag
