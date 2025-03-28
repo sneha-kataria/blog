@@ -23,3 +23,8 @@ github_username: sneha-kataria
 email: snehakataria1244@gmail.com
 
 show_excerpts: true
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
