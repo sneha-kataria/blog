@@ -1,7 +1,53 @@
----
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+<header>
+    <nav>
+        <div class="logo">{{ site.title }}</div>
+        <ul>
+            {% for item in site.nav %}
+            <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <img src="/assets/images/hero.jpg" alt="Profile Picture" class="profile-img">
+        <h1>Hello, I'm Sneha Kataria</h1>
+        <p>Designer & Creative Thinker</p>
+        <a href="/about" class="btn">Learn More</a>
+    </div>
+</section>
+
+<section class="portfolio">
+    <h2>My Work</h2>
+    <div class="project-grid">
+        {% for project in site.projects %}
+        <div class="project-item">
+            <img src="{{ project.image }}" alt="{{ project.title }}">
+            <h3>{{ project.title }}</h3>
+            <p>{{ project.description }}</p>
+            <a href="{{ project.url }}" class="btn">View Project</a>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Contact Me</h2>
+    <p>Let's work together! Reach out to me at <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+</section>
+
+<footer>
+    <p>&copy; {{ site.time | date: '%Y' }} Sneha Kataria. All rights reserved.</p>
+</footer>
+</body>
+</html>
