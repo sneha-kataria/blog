@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "About Bundler"
-author: Sneha Kataria
+author: Sneha
 categories: [ Jekyll ]
 image: assets/images/2.jpg
 ---

@@ -33,7 +33,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: Sneha Kataria
+      author: Sneha
       avatar: /assets/images/avatar1.jpg
 
   # all pages
