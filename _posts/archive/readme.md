@@ -1,1 +1,0 @@
-You can add archived posts in this folder.
