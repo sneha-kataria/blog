@@ -5,7 +5,7 @@ permalink: "/about.html"
 #image: "/assets/images/screenshot.jpg"
 comments: true
 ---
-Hi, I'm Sneha! In the following post I will summarize my work experience. 
+Hi, I'm Sneha!
 
 With seven years of experience in the **customer-facing industry**, I bring a strategic and results-driven approach to
 product management.

@@ -4,7 +4,7 @@ title:  "Welcome to Sneha Kataria's Portfolio!"
 categories: [ Portfolio ]
 image: assets/images/demo1.jpg
 ---
-Hi, I'm Sneha!
+Hi, I'm Sneha! In the following blog I will summarize my work experience.
 
 With seven years of experience in the **customer-facing industry**, I bring a strategic and results-driven approach to
 product management.
