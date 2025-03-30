@@ -1,18 +1,10 @@
 ---
+layout: post
 title: "INSURANCE APP UPDATE Press Release"
-author: Sneha Kataria
-categories: 
-  - product-management
-tags: 
-  - product market fit 
-  - ideas 
-  - insurance app 
-  - press release 
-  - faq 
-  - PRFAQ 
-  - ideas 
-  - mental health 
-  - anxiety
+author: Sneha
+categories: [ product-management ]
+tags: [ product-market fit, ideas, Press Release, PR-FAQ]
+image: https://images.unsplash.com/photo-1528784351875-d797d86873a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
 date: 2024-11-01 10:00:00 -0700
 ---
 

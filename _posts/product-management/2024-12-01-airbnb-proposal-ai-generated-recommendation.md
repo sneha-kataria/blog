@@ -1,14 +1,10 @@
 ---
+layout: post
 title: "AIRBNB - PROPOSING AI-GENERATED RECOMMENDATION UPDATE"
-author: Sneha Kataria
-categories: 
-  - product-management
-tags: 
-  - product market fit 
-  - ideas 
-  - travel
-  - recommendation 
-  - engine search AI
+author: Sneha
+categories: [ product-management ]
+tags: [ product-market fit, ideas]
+image: https://images.unsplash.com/photo-1528784351875-d797d86873a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
 date: 2024-12-01 10:00:00 -0700
 ---
 
