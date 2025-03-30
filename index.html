@@ -12,7 +12,7 @@ description: "Hey I am Sneha Kataria, and this my blog."
 {% if page.url == "/" %}
 
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
-<div class="row remove-site-content-margin">
+<div class="row justify-content-center">
     
     <!-- latest post -->
     {% assign latest_post = site.posts | where: "path", "_posts/2019-02-04-welcome-to-Sneha-Blog.markdown" | first %}
@@ -36,128 +36,14 @@ description: "Hey I am Sneha Kataria, and this my blog."
                 {% endfor %}
                 </span>                   
         </small>
-        <small class="text-muted">
-<!--            {{ latest_post.date | date: '%b %d, %Y' }}-->
-        </small>
     </div>
     </div>
     </div>
     </div>
-    
-<!--    <div class="col-md-6">-->
-<!--        &lt;!&ndash; second latest post &ndash;&gt;-->
-<!--&lt;!&ndash;        {%- assign second_post = site.posts[1] -%}&ndash;&gt;-->
-<!--        {% assign second_post = site.posts | where: "path", "_posts/product-management/2024-11-01-apple-watch-annex.md" | first %}-->
-<!--        <div class="mb-3 d-flex align-items-center">                -->
-<!--                {% if second_post.image %}-->
-<!--                <div class="col-md-4">-->
-<!--                <a href="{{site.baseurl}}{{second_post.url}}">-->
-<!--                 <img class="w-100" src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %}" alt="{{ second_post.title }}">-->
-<!--                </a>-->
-<!--                </div>-->
-<!--                {% endif %}                -->
-<!--                <div>-->
-<!--                    <h2 class="mb-2 h6 font-weight-bold">-->
-<!--                    <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>-->
-<!--                    </h2>-->
-<!--                    <small class="d-block text-muted">-->
-<!--                        In <span class="catlist">-->
-<!--                        {% for category in second_post.categories %}-->
-<!--                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>-->
-<!--                        {% endfor %}-->
-<!--                        </span>                   -->
-<!--                    </small>-->
-<!--                    <small class="text-muted">-->
-<!--&lt;!&ndash;                        {{ second_post.date | date: '%b %d, %Y' }}&ndash;&gt;-->
-<!--                    </small>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        -->
-<!--        &lt;!&ndash; third latest post &ndash;&gt;-->
-<!--&lt;!&ndash;        {%- assign third_post = site.posts[2] -%}&ndash;&gt;-->
-<!--        {% assign third_post = site.posts | where: "path", "_posts/product-management/2024-12-01-airbnb-proposal-ai-generated-recommendation.md" | first %}-->
-<!--        <div class="mb-3 d-flex align-items-center">                -->
-<!--                {% if third_post.image %}-->
-<!--                <div class="col-md-4">-->
-<!--                <a href="{{site.baseurl}}{{third_post.url}}">-->
-<!--                 <img class="w-100" src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{site.baseurl}}/{{ third_post.image }}{% endif %}" alt="{{ third_post.title }}">-->
-<!--                </a>-->
-<!--                </div>-->
-<!--                {% endif %}                -->
-<!--                <div>-->
-<!--                    <h2 class="mb-2 h6 font-weight-bold">-->
-<!--                    <a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>-->
-<!--                    </h2>-->
-<!--                    <small class="d-block text-muted">-->
-<!--                        In <span class="catlist">-->
-<!--                        {% for category in third_post.categories %}-->
-<!--                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>-->
-<!--                        {% endfor %}-->
-<!--                        </span>                   -->
-<!--                    </small>-->
-<!--                    <small class="text-muted">-->
-<!--&lt;!&ndash;                        {{ third_post.date | date: '%b %d, %Y' }}&ndash;&gt;-->
-<!--                    </small>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        -->
-<!--        &lt;!&ndash; fourth latest post &ndash;&gt;-->
-<!--&lt;!&ndash;        {%- assign fourth_post = site.posts[3] -%}     &ndash;&gt;-->
-<!--        {% assign fourth_post = site.posts | where: "path", "_posts/product-management/2024-12-15-hyper-local-product-market-fit.md" | first %}-->
-<!--        <div class="mb-3 d-flex align-items-center">                -->
-<!--                {% if fourth_post.image %}-->
-<!--                <div class="col-md-4">-->
-<!--                <a href="{{site.baseurl}}{{fourth_post.url}}">-->
-<!--                <img class="w-100" src="{% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}{{site.baseurl}}/{{ fourth_post.image }}{% endif %}" alt="{{ fourth_post.title }}">-->
-<!--                </a>-->
-<!--                </div>-->
-<!--                {% endif %}                -->
-<!--                <div>-->
-<!--                    <h2 class="mb-2 h6 font-weight-bold">-->
-<!--                    <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>-->
-<!--                    </h2>-->
-<!--                    <small class="d-block text-muted">-->
-<!--                        In <span class="catlist">-->
-<!--                        {% for category in fourth_post.categories %}-->
-<!--                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>-->
-<!--                        {% endfor %}-->
-<!--                        </span>                   -->
-<!--                    </small>-->
-<!--                    <small class="text-muted">-->
-<!--&lt;!&ndash;                        {{ fourth_post.date | date: '%b %d, %Y' }}&ndash;&gt;-->
-<!--                    </small>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        -->
-<!--    </div>-->
-<!--    -->
-<!--</div>-->
-    
-<!--&lt;!&ndash; Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] &ndash;&gt;-->
-<!--{% for post in site.posts %} -->
-<!--{% if post.tags contains "sticky" %}-->
-<!--<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">-->
-<!--    <div class="pl-4 pr-0 h-100 tofront">-->
-<!--        <div class="row justify-content-between">-->
-<!--            <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">-->
-<!--                <h1 class="mb-3">{{post.title}}</h1>-->
-<!--                <p class="mb-3 lead">-->
-<!--                    {{ post.excerpt | strip_html | strip_newlines | truncate: 136 }}-->
-<!--                </p>-->
-<!--                <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Read More</a>-->
-<!--            </div>-->
-<!--            <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({{site.baseurl}}/{{ post.image }});">	-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div> -->
-<!--{% endif %}-->
-<!--{% endfor %}-->
 
+{% endif %}
 
-{% endif %} <!--endif page url is / -->
-
-<div class="row mt-3">
+<div class="row justify-content-center">
    
     <div class="col-md-8">
         
