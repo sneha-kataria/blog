@@ -4,7 +4,7 @@ title: "PRODUCT MARKET FIT - Hyperlocal product recommendation engine"
 author: Sneha
 categories: [ product-management ]
 tags: [ product-market fit, ideas]
-image: https://images.unsplash.com/photo-1528784351875-d797d86873a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
+image: https://sneha-kataria.github.io/blog/assets/images/hyperlocal_product_recommendation/home_page.png
 date: 2024-12-15 10:00:00 -0700
 ---
 
