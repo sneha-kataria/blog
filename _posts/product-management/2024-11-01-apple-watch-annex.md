@@ -4,7 +4,7 @@ title: "APPLE WATCH - ANEX APP - Press Release"
 author: Sneha
 categories: [ product-management ]
 tags: [ product-market fit, ideas]
-image: https://sneha-kataria.github.io/blog/assets/images/apple_watch/home_page.png
+image: https://sneha-kataria.github.io/blog/assets/images/apple_watch/home_page.jpg
 date: 2024-11-01 10:00:00 -0700
 ---
 
