@@ -14,7 +14,7 @@
 		</span>
 	</small>
 	<small class="text-muted">
-		{{ post.date | date: '%b %d, %Y' }}
+		{% include meta-read-time.html %}
 	</small>
 </div>
 {% if post.image %}
