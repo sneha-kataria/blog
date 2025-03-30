@@ -15,7 +15,7 @@ description: "Hey I am Sneha Kataria, and this my blog."
 <div class="row remove-site-content-margin">
     
     <!-- latest post -->
-    {% assign latest_post = site.posts[0] %}
+    {% assign latest_post = site.posts | where: "path", "_posts/2019-02-04-welcome-to-Sneha-Blog.markdown" | first %}
     <div class="col-md-6">
     <div class="card border-0 mb-4 box-shadow">   
     <a href="{{site.baseurl}}{{latest_post.url}}">
