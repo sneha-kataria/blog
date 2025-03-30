@@ -172,9 +172,9 @@ description: "Hey I am Sneha Kataria, and this my blog."
         <h4 class="font-weight-bold spanborder"><span>All Product Management Stories</span></h4>
 
 
-        {% assign posts = site.posts %}
+        {% assign posts = site.posts | where:"author","Sneha" %}
         {% for post in posts %}
-            {% include main-loop-card.html %}
+        {% include main-loop-card.html %}
         {% endfor %}
         
     </div>
