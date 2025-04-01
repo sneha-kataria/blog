@@ -42,7 +42,7 @@ The hyperlocal delivery industry was worth USD 1,324 billion in 2019 and is expe
 
 **For United States:**
 
-<table  style="border: 1px solid black;">
+<table border="1" width="100%" cellpadding="10px">
   <thead>
     <tr>
       <th>Countries</th>
@@ -101,7 +101,7 @@ Insights from the user interviews conducted in person. Link to the interview det
 
 **User- 1**
 
-<table border="1">
+<table border="1" width="100%" cellpadding="10px">
     <tr>
         <th>Demography</th>
         <th>Challenges</th>
@@ -134,7 +134,7 @@ Insights from the user interviews conducted in person. Link to the interview det
 
 **User-2**
 
-<table>
+<table border="1" width="100%" cellpadding="10px">
   <tr>
     <th>Demography</th>
     <th>Challenges</th>
@@ -155,7 +155,7 @@ Insights from the user interviews conducted in person. Link to the interview det
 
 ## 👥 COMPETITIVE ANALYSIS
 
-<table>
+<table border="1" width="100%" cellpadding="10px">
   <tr>
     <th>Company</th>
     <th>Strength</th>
@@ -184,7 +184,7 @@ Insights from the user interviews conducted in person. Link to the interview det
 
 ## INSIGHTS FROM USER RESEARCH AND COMPETITIVE ANALYSIS AND VALIDATION CHECK LIST
 
-<table>
+<table border="1" width="100%" cellpadding="10px">
   <tr>
     <th>Problem</th>
     <th>Validation</th>
@@ -227,7 +227,7 @@ Users face issue with ordering multiple products from multiple stores because of
 User find a lack of information about product description among similar products due to incomplete details listed on the platform and no price comparisons between stores saving money for the user, causes confusion and makes it tedious for user to find the right product.
 
 ## 🍚 PRIORITISATION BASED ON RICE FRAMEWORK
-<table>
+<table border="1" width="100%" cellpadding="10px">
   <thead>
     <tr>
       <th>Problem</th>
@@ -296,7 +296,7 @@ For users, our MVP provides improved search results with AI- personalized recomm
 
 ## **Core Features:**
 
-<table>
+<table border="1" width="100%" cellpadding="10px">
   <thead>
     <tr>
       <th>Feature</th>
@@ -337,7 +337,7 @@ For users, our MVP provides improved search results with AI- personalized recomm
 
 ## **FEATURE PRIORITISATION LIST (USING Moscow method)**
 
-<table>
+<table border="1" width="100%" cellpadding="10px">
   <thead>
     <tr>
       <th>FEATURE</th>
