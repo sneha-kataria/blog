@@ -42,7 +42,7 @@ The hyperlocal delivery industry was worth USD 1,324 billion in 2019 and is expe
 
 **For United States:**
 
-<table>
+<table  style="border: 1px solid black;">
   <thead>
     <tr>
       <th>Countries</th>
