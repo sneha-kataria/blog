@@ -53,33 +53,6 @@ build complexity. To follow along, you can use the Walmart sales dataset for dat
     </code>
 </div>
 
-<script>
-// SQL keywords and functions lists
-const keywords = ['SELECT', 'FROM', 'WHERE', 'GROUP BY', 'ORDER BY', 'HAVING', 'AS', 'AND', 'OR', 'JOIN', 'ON'];
-const functions = ['SUM', 'AVG', 'COUNT', 'MAX', 'MIN'];
-
-function highlightSQL() {
-    let codeElement = document.getElementById('sql-code');
-    let text = codeElement.innerHTML;
-    
-    // Highlight keywords
-    keywords.forEach(keyword => {
-        const regex = new RegExp(`\\b${keyword}\\b`, 'gi');
-        text = text.replace(regex, `<span class="keyword">${keyword}</span>`);
-    });
-    
-    // Highlight functions
-    functions.forEach(func => {
-        const regex = new RegExp(`\\b${func}\\b`, 'gi');
-        text = text.replace(regex, `<span class="function">${func}</span>`);
-    });
-    
-    codeElement.innerHTML = text;
-}
-
-// Run highlighting when page loads
-window.onload = highlightSQL;
-</script>
 
 ## Setting Up Your Database
 
@@ -591,3 +564,31 @@ GROUP BY shifts;     --grouping the total sales made at each shift.
 The time-of-day analysis shows sales patterns across different periods, which can be used for staffing optimization,
 inventory management, and planning promotional activities during peak or slow periods.
 
+
+<script>
+// SQL keywords and functions lists
+const keywords = ['SELECT', 'FROM', 'WHERE', 'GROUP BY', 'ORDER BY', 'HAVING', 'AS', 'AND', 'OR', 'JOIN', 'ON'];
+const functions = ['SUM', 'AVG', 'COUNT', 'MAX', 'MIN'];
+
+function highlightSQL() {
+    let codeElement = document.getElementById('sql-code');
+    let text = codeElement.innerHTML;
+    
+    // Highlight keywords
+    keywords.forEach(keyword => {
+        const regex = new RegExp(`\\b${keyword}\\b`, 'gi');
+        text = text.replace(regex, `<span class="keyword">${keyword}</span>`);
+    });
+    
+    // Highlight functions
+    functions.forEach(func => {
+        const regex = new RegExp(`\\b${func}\\b`, 'gi');
+        text = text.replace(regex, `<span class="function">${func}</span>`);
+    });
+    
+    codeElement.innerHTML = text;
+}
+
+// Run highlighting when page loads
+window.onload = highlightSQL;
+</script>
