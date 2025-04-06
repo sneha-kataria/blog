@@ -17,6 +17,7 @@ build complexity. To follow along, you can use the Walmart sales dataset for dat
 
 ![Home Page](/blog/assets/images/sql_data_analysis/sql-data-analysis.png)
 
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 
 ## Setting Up Your Database
 
