@@ -43,16 +43,6 @@ build complexity. To follow along, you can use the Walmart sales dataset for dat
 }
 </style>
 
-<div class="sql-container">
-    <code id="sql-code" class="sql-code">
-        SELECT product_line,
-        SUM(total) as total_sales,
-        AVG(rating) as avg_rating
-        FROM walmart_sales
-        GROUP BY product_line;
-    </code>
-</div>
-
 
 ## Setting Up Your Database
 
@@ -113,6 +103,17 @@ GROUP BY branch;       -- now grouping the branch column to get the total.
 </code>
 </div>
 
+
+
+<div class="sql-container">
+    <code id="sql-code" class="sql-code">
+        SELECT product_line,
+        SUM(total) as total_sales,
+        AVG(rating) as avg_rating
+        FROM walmart_sales
+        GROUP BY product_line;
+    </code>
+</div>
 **Result:**  
 
 ![img.png](/blog/assets/images/sql_data_analysis/Q1.png)
