@@ -119,7 +119,11 @@ Here is how the table will be created after the above query run:
 Now it is time to feed the data into the table. Once that is done, you can run the below query to select all records 
 and it will display all the records. It can also verify that all the data has been transferred to the SQL Database.
 
-```SELECT * from walmart_sales;```
+<div class="sql-container">
+    <code id="sql-code" class="sql-code">
+        SELECT * from walmart_sales;
+</code>
+</div>
 
 ## Business Problems 
 
@@ -127,12 +131,14 @@ and it will display all the records. It can also verify that all the data has be
 
 Branch Total Sales Query: This query calculates total sales by branch. It uses SUM() to aggregate sales and GROUP BY to get branch-wise totals.
 
-```SQL
+<div class="sql-container">
+    <code id="sql-code" class="sql-code">
 SELECT branch,     -- filtering branch column.
 SUM(total) as branch_total     -- adding the sales total for each branch and naming it.
 FROM walmart_sales
 GROUP BY branch;       -- now grouping the branch column to get the total.
-```
+</code>
+</div>
 
 **Result:**  
 
