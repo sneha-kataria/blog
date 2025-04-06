@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "INSURANCE APP UPDATE Press Release"
+title: "Proposing new simplified insurance Application"
 author: Sneha
 categories: [ product-management ]
 tags: [ product-market fit, ideas, Press Release, PR-FAQ]

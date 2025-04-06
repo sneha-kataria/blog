@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PRODUCT MARKET FIT - Hyperlocal product recommendation engine"
+title: "Finding product market fit for competitive hyperlocal market"
 author: Sneha
 categories: [ product-management ]
 tags: [ product-market fit, ideas]

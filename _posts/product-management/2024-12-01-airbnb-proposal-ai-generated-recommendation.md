@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AIRBNB - PROPOSING AI-GENERATED RECOMMENDATION UPDATE"
+title: "Airbnb: proposing intelligent recommendation using AI"
 author: Sneha
 categories: [ product-management ]
 tags: [ product-market fit, ideas]
@@ -50,12 +50,28 @@ recommendations. Airbnb can make use of consented cookie data to improve on the 
 to travel for accurate recommendations.
 
 ## Business Goal
-
-| **Goal** | **Description** |
-| --- | --- |
-| Enhance user experience and boost engagement | Make Airbnb more engaging for the user by offering recommendations that feels personal and relevant, encouraging user to explore more of what it offers. |
-| Boost frequency of Stay | By suggesting options that matches user preferences, we aim to encourage them to take more trips and spend more days often. |
-| Build brand loyalty | With the personalised experience, we aim to increase customer satisfaction and loyalty. Making Airbnb their go to choice for all their stays during travel. |
+<table border="1" width="100%" cellpadding="10px">
+  <thead>
+    <tr>
+      <th>Goal</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Enhance user experience and boost engagement</td>
+      <td>Make Airbnb more engaging for the user by offering recommendations that feels personal and relevant, encouraging user to explore more of what it offers.</td>
+    </tr>
+    <tr>
+      <td>Boost frequency of Stay</td>
+      <td>By suggesting options that matches user preferences, we aim to encourage them to take more trips and spend more days often.</td>
+    </tr>
+    <tr>
+      <td>Build brand loyalty</td>
+      <td>With the personalised experience, we aim to increase customer satisfaction and loyalty. Making Airbnb their go to choice for all their stays during travel.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## 🎯 User Goal
 
@@ -81,12 +97,50 @@ Providing top-rated properties with great reviews will harness their trust in th
 is secure and used responsibly will further make them put their trust in Airbnb.
 
 ## 🤵 User Persona
-
-| **Persona** | **Pains** | **Needs** |
-| --- | --- | --- |
-| 1. Karl (30 yrs)  - Seattle , Loves to explore serene destinations. | As a full-time working professional, I need weekend getaways to blow of the steam and is away from the hustle & bustle of the cities. | I would really like personalized recommendations of stays under 100 mile radius. It will help me rejuvenate over the weekends, allowing me to return to work energized and ready to begin anew. |
-| 1. Linda (22 yrs) - California , Loves to party and hang-out with her friends. | As a young adult, I mostly travel with my friends on various occasions. I prefer to stay at places which provides fun activities and modes of entertainment. | I would really love the Personalised recommendations of experiences like group tours and amusing activities. Like stays with pool , cabins for treks and camping options and similar. |
-| 1. Tom (45 yrs) - Texas , Loves to travel with his kids and take family trips. | Travelling with kids and big family can be overwhelming if you don't consider convenience and entertainment over anything. I want my kids to enjoy and have fun during vacation trips. | I would really love to have Personalised recommendations for kids-friendly stays, having entertainment options and experiences. let’s say beaches, amusement parks and playgrounds in the vicinity of the stays. |
+<table border="1" width="100%" cellpadding="10px">
+    <thead>
+        <tr>
+            <th><strong>Persona</strong></th>
+            <th><strong>Pains</strong></th>
+            <th><strong>Needs</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                1. Karl (30 yrs) - Seattle, Loves to explore serene destinations.
+            </td>
+            <td>
+                As a full-time working professional, I need weekend getaways to blow of the steam and is away from the hustle & bustle of the cities.
+            </td>
+            <td>
+                I would really like personalized recommendations of stays under 100 mile radius. It will help me rejuvenate over the weekends, allowing me to return to work energized and ready to begin anew.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                1. Linda (22 yrs) - California, Loves to party and hang-out with her friends.
+            </td>
+            <td>
+                As a young adult, I mostly travel with my friends on various occasions. I prefer to stay at places which provides fun activities and modes of entertainment.
+            </td>
+            <td>
+                I would really love the Personalised recommendations of experiences like group tours and amusing activities. Like stays with pool, cabins for treks and camping options and similar.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                1. Tom (45 yrs) - Texas, Loves to travel with his kids and take family trips.
+            </td>
+            <td>
+                Travelling with kids and big family can be overwhelming if you don't consider convenience and entertainment over anything. I want my kids to enjoy and have fun during vacation trips.
+            </td>
+            <td>
+                I would really love to have Personalised recommendations for kids-friendly stays, having entertainment options and experiences. let's say beaches, amusement parks and playgrounds in the vicinity of the stays.
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ## 🏅 Success Criteria
 
@@ -108,13 +162,83 @@ trips/bookings and searches. It will make me explore and have different experien
 
 ## Requirements
 
-| **Requirement** | **Details** | **Importance** | **Notes** |
-| --- | --- | --- | --- |
-| Stay Recommendations | Personalised recommendations of stays based on user’s preferences and search & booking history. | HIGH |  |
-| Experiences Recommendations | Personalised recommendations of experiences based on user’s current and past bookings for delightful upcoming experience. | HIGH |  |
-| Easy Access | The feature will present recommendations in a clear, easy to use format. Help you quickly navigate your options and experiences. | MEDIUM |  |
-| Preference Filters | User can set his preferences using a filter for more accurate recommendations. | LOW |  |
-| Data and Feedback | The application will track user behavior, past selections or searches that didn’t convert into bookings and user feedback to continually improve on the recommendation and make it more relevant. | MEDIUM |  |
+<table border="1" width="100%" cellpadding="10px">
+    <thead>
+        <tr>
+            <th><strong>Requirement</strong></th>
+            <th><strong>Details</strong></th>
+            <th><strong>Importance</strong></th>
+            <th><strong>Notes</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                Stay Recommendations
+            </td>
+            <td>
+                Personalised recommendations of stays based on user's preferences and search & booking history.
+            </td>
+            <td>
+                HIGH
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Experiences Recommendations
+            </td>
+            <td>
+                Personalised recommendations of experiences based on user's current and past bookings for delightful upcoming experience.
+            </td>
+            <td>
+                HIGH
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Easy Access
+            </td>
+            <td>
+                The feature will present recommendations in a clear, easy to use format. Help you quickly navigate your options and experiences.
+            </td>
+            <td>
+                MEDIUM
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Preference Filters
+            </td>
+            <td>
+                User can set his preferences using a filter for more accurate recommendations.
+            </td>
+            <td>
+                LOW
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Data and Feedback
+            </td>
+            <td>
+                The application will track user behavior, past selections or searches that didn't convert into bookings and user feedback to continually improve on the recommendation and make it more relevant.
+            </td>
+            <td>
+                MEDIUM
+            </td>
+            <td>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ## 💻 Technical Requirement
 
@@ -156,17 +280,116 @@ and data usage practices, ensuring transparency and compliance with data protect
 
 ## 👥 Team Requirement
 
-| **Team** | **Requirement** | **Description** |
-| --- | --- | --- |
-| Data Science/MLE | Recommendation Algorithm | Develop and train machine learning models to generate Personalised stays and experiences recommendation based on user data and preferences. |
-| Data Science/MLE | User Behavior Analytics | Implement analytics to track user behavior and interactions with recommendations to refine and improve the AI models. |
-| Engineering | Integration with User Profiles | Ensure seamless integration of recommendation algorithms with user profiles, including preferences and order history. |
-| Engineering | Travel Preference Implementation | Develop functionality for users to set and manage their preferences that the AI models use for recommendation |
-| Engineering | Notification System | Develop and integrate a system to send personalised notifications and prompts about recommended stays and experiences. |
-| Engineering | Performance Optimization | Ensure the recommendation engine and related features do not degrade app performance, including response times and load handling. |
-| Business Intelligence | Analytics Dashboard | Create dashboards to monitor and report on key metrics related to recommendation effectiveness, user engagement, and service utilization. |
-| Quality Assurance | Testing for Accuracy and Privacy | Conduct rigorous testing to ensure the accuracy of recommendations and compliance with user privacy regulations. |
-| Compliance | Privacy and Data Security Compliance | Implement measures to safeguard user data and ensure compliance with relevant privacy laws and regulations. |
+<table border="1" width="100%" cellpadding="10px">
+    <thead>
+        <tr>
+            <th><strong>Team</strong></th>
+            <th><strong>Requirement</strong></th>
+            <th><strong>Description</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                Data Science/MLE
+            </td>
+            <td>
+                Recommendation Algorithm
+            </td>
+            <td>
+                Develop and train machine learning models to generate Personalised stays and experiences recommendation based on user data and preferences.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Data Science/MLE
+            </td>
+            <td>
+                User Behavior Analytics
+            </td>
+            <td>
+                Implement analytics to track user behavior and interactions with recommendations to refine and improve the AI models.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Engineering
+            </td>
+            <td>
+                Integration with User Profiles
+            </td>
+            <td>
+                Ensure seamless integration of recommendation algorithms with user profiles, including preferences and order history.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Engineering
+            </td>
+            <td>
+                Travel Preference Implementation
+            </td>
+            <td>
+                Develop functionality for users to set and manage their preferences that the AI models use for recommendation
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Engineering
+            </td>
+            <td>
+                Notification System
+            </td>
+            <td>
+                Develop and integrate a system to send personalised notifications and prompts about recommended stays and experiences.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Engineering
+            </td>
+            <td>
+                Performance Optimization
+            </td>
+            <td>
+                Ensure the recommendation engine and related features do not degrade app performance, including response times and load handling.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Business Intelligence
+            </td>
+            <td>
+                Analytics Dashboard
+            </td>
+            <td>
+                Create dashboards to monitor and report on key metrics related to recommendation effectiveness, user engagement, and service utilization.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Quality Assurance
+            </td>
+            <td>
+                Testing for Accuracy and Privacy
+            </td>
+            <td>
+                Conduct rigorous testing to ensure the accuracy of recommendations and compliance with user privacy regulations.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Compliance
+            </td>
+            <td>
+                Privacy and Data Security Compliance
+            </td>
+            <td>
+                Implement measures to safeguard user data and ensure compliance with relevant privacy laws and regulations.
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ## 🫥 UI Requirements
 
@@ -176,10 +399,53 @@ and data usage practices, ensuring transparency and compliance with data protect
 
 ## 🏹 Success Metric
 
-| **Metric** | **Reason** |
-| --- | --- |
-| Increase in User Engagement | Higher user engagement indicates relevance and utility of the recommendations, boosting Airbnb usage. |
-| Improvement in Order Frequency | More frequent bookings suggest the feature encourages additional purchases and improves user retention. |
-| User Satisfaction and Retention | High satisfaction reflects that the feature meets user needs and supports long-term loyalty. |
-| Reduction in Decision-Making Time | Faster decision-making indicates that the feature helps users choose and complete order efficiently. |
-| Accuracy of Recommendations | High accuracy ensures the recommendations are relevant to user preferences, improving user experience. |
+<table border="1" width="100%" cellpadding="10px">
+    <thead>
+        <tr>
+            <th><strong>Metric</strong></th>
+            <th><strong>Reason</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                Increase in User Engagement
+            </td>
+            <td>
+                Higher user engagement indicates relevance and utility of the recommendations, boosting Airbnb usage.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Improvement in Order Frequency
+            </td>
+            <td>
+                More frequent bookings suggest the feature encourages additional purchases and improves user retention.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                User Satisfaction and Retention
+            </td>
+            <td>
+                High satisfaction reflects that the feature meets user needs and supports long-term loyalty.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Reduction in Decision-Making Time
+            </td>
+            <td>
+                Faster decision-making indicates that the feature helps users choose and complete order efficiently.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Accuracy of Recommendations
+            </td>
+            <td>
+                High accuracy ensures the recommendations are relevant to user preferences, improving user experience.
+            </td>
+        </tr>
+    </tbody>
+</table>

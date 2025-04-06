@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "APPLE WATCH - ANEX APP - Press Release"
+title: "Apple watch - Proposing new mental health application"
 author: Sneha
 categories: [ product-management ]
 tags: [ product-market fit, ideas]
