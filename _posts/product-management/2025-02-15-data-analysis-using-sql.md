@@ -17,33 +17,6 @@ build complexity. To follow along, you can use the Walmart sales dataset for dat
 
 ![Home Page](/blog/assets/images/sql_data_analysis/sql-data-analysis.png)
 
-<style>
-.sql-container {
-    background-color: #f8f9fa;
-    border: 1px solid #e9ecef;
-    border-radius: 4px;
-    padding: 15px;
-    margin: 10px 0;
-}
-
-.sql-code {
-    font-family: 'Consolas', 'Monaco', monospace;
-    color: #333;
-    line-height: 1.5;
-    white-space: pre;
-}
-
-.keyword {
-    color: #0033B3;
-    font-weight: bold;
-}
-
-.function {
-    color: #00627A;
-}
-</style>
-
-
 ## Setting Up Your Database
 
 Before diving into queries, the first step is to create a table in PostgreSQL and upload the dataset. 
@@ -53,8 +26,7 @@ Use the following CREATE TABLE command to structure your database with appropria
 This query creates a new table named "walmart_sales" with specified columns and their data types. 
 It defines the structure for storing Walmart sales data with appropriate constraints.
 
-<div class="sql-container">
-<code id="sql-code" class="sql-code">
+```SQL
 CREATE TABLE walmart_sales(
     invoice_id VARCHAR(15),     -- string with maximum length of 15 characters.
     branch CHAR(1),    
@@ -71,8 +43,7 @@ CREATE TABLE walmart_sales(
     payment_method VARCHAR(15),
     rating FLOAT
 );
-</code>
-</div>
+```
 
 
 Here is how the table will be created after the above query run: 
@@ -82,11 +53,9 @@ Here is how the table will be created after the above query run:
 Now it is time to feed the data into the table. Once that is done, you can run the below query to select all records 
 and it will display all the records. It can also verify that all the data has been transferred to the SQL Database.
 
-<div class="sql-container">
-    <code id="sql-code" class="sql-code">
-        SELECT * from walmart_sales;
-</code>
-</div>
+```SQL
+   SELECT * from walmart_sales;
+```
 
 ## Business Problems 
 
@@ -94,26 +63,13 @@ and it will display all the records. It can also verify that all the data has be
 
 Branch Total Sales Query: This query calculates total sales by branch. It uses SUM() to aggregate sales and GROUP BY to get branch-wise totals.
 
-<div class="sql-container">
-    <code id="sql-code" class="sql-code">
+```SQL
 SELECT branch,     -- filtering branch column.
 SUM(total) as branch_total     -- adding the sales total for each branch and naming it.
 FROM walmart_sales
 GROUP BY branch;       -- now grouping the branch column to get the total.
-</code>
-</div>
+```
 
-
-
-<div class="sql-container">
-    <code id="sql-code" class="sql-code">
-        SELECT product_line,
-        SUM(total) as total_sales,
-        AVG(rating) as avg_rating
-        FROM walmart_sales
-        GROUP BY product_line;
-    </code>
-</div>
 **Result:**  
 
 ![img.png](/blog/assets/images/sql_data_analysis/Q1.png)
@@ -564,32 +520,3 @@ GROUP BY shifts;     --grouping the total sales made at each shift.
 **Insights:**  
 The time-of-day analysis shows sales patterns across different periods, which can be used for staffing optimization,
 inventory management, and planning promotional activities during peak or slow periods.
-
-
-<script>
-// SQL keywords and functions lists
-const keywords = ['SELECT', 'FROM', 'WHERE', 'GROUP BY', 'ORDER BY', 'HAVING', 'AS', 'AND', 'OR', 'JOIN', 'ON'];
-const functions = ['SUM', 'AVG', 'COUNT', 'MAX', 'MIN'];
-
-function highlightSQL() {
-    let codeElement = document.getElementById('sql-code');
-    let text = codeElement.innerHTML;
-    
-    // Highlight keywords
-    keywords.forEach(keyword => {
-        const regex = new RegExp(`\\b${keyword}\\b`, 'gi');
-        text = text.replace(regex, `<span class="keyword">${keyword}</span>`);
-    });
-    
-    // Highlight functions
-    functions.forEach(func => {
-        const regex = new RegExp(`\\b${func}\\b`, 'gi');
-        text = text.replace(regex, `<span class="function">${func}</span>`);
-    });
-    
-    codeElement.innerHTML = text;
-}
-
-// Run highlighting when page loads
-window.onload = highlightSQL;
-</script>
