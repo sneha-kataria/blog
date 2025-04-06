@@ -28,14 +28,14 @@ This query creates a new table named "walmart_sales" with specified columns and 
 It defines the structure for storing Walmart sales data with appropriate constraints.
 ```SQL
 CREATE TABLE walmart_sales(
-    invoice_id VARCHAR(15),             -- string with maximum length of 15 characters.
+    invoice_id VARCHAR(15),     -- string with maximum length of 15 characters.
     branch CHAR(1),    
     city VARCHAR(25),  
     customer_type VARCHAR(15),
     gender VARCHAR(15),
     product_line VARCHAR(55),    
-    unit_price FLOAT,                   -- stores numeric values with decimal places.
-    quantity INT,                       -- stores integers
+    unit_price FLOAT,      -- stores numeric values with decimal places.
+    quantity INT,     -- stores integers
     vat FLOAT,
     total FLOAT,
     date date,    
@@ -61,10 +61,10 @@ and it will display all the records. It can also verify that all the data has be
 Branch Total Sales Query: This query calculates total sales by branch. It uses SUM() to aggregate sales and GROUP BY to get branch-wise totals.
 
 ```SQL
-SELECT branch,                        -- filtering branch column.
-SUM(total) as branch_total            -- adding the sales total for each branch and naming it.
+SELECT branch,     -- filtering branch column.
+SUM(total) as branch_total     -- adding the sales total for each branch and naming it.
 FROM walmart_sales
-GROUP BY branch;                      -- now grouping the branch column to get the total.
+GROUP BY branch;       -- now grouping the branch column to get the total.
 ```
 
 **Result:**  
@@ -82,9 +82,9 @@ City Average Rating Query: This query finds average customer ratings for each ci
 
 ```SQL
 SELECT city,
-AVG(rating) as Avg_rating              -- calculating the average rating for each city.
+AVG(rating) as Avg_rating     -- calculating the average rating for each city.
 FROM walmart_sales
-GROUP BY city;                         -- now grouping the city column to get distinct value for each city.
+GROUP BY city;     -- now grouping the city column to get distinct value for each city.
 ```
 **Result:**  
 
@@ -102,9 +102,9 @@ Customer Type Sales Count Query: This query counts sales transactions by custome
 
 ```SQL
 SELECT customer_type,
-COUNT(*) as total_sales                -- counting each sale made.
+COUNT(*) as total_sales     -- counting each sale made.
 FROM walmart_sales
-GROUP BY customer_type;                -- grouping by  customer_type column to get total sales made by each type.
+GROUP BY customer_type;     -- grouping by  customer_type column to get total sales made by each type.
 ```
 **Result:**  
 
@@ -119,9 +119,9 @@ Product Line Quantity Query: This query sums up quantities sold for each product
 
 ```SQL
 SELECT product_line,
-COUNT(quantity) as total_quantity    -- Counting total quantity in a new column.
+COUNT(quantity) as total_quantity     -- Counting total quantity in a new column.
 FROM walmart_sales
-GROUP BY product_line ;              -- grouping by product_line column to combine the quantity for each category.
+GROUP BY product_line ;     -- grouping by product_line column to combine the quantity for each category.
 ```
 
 **Result:**  
@@ -138,9 +138,9 @@ Payment Method VAT Query: This query calculates total VAT collected for each pay
 
 ```SQL
 SELECT payment_method,
-SUM(vat) as total_vat              -- adding the vat for each payment method.
+SUM(vat) as total_vat     -- adding the vat for each payment method.
 FROM walmart_sales
-GROUP BY payment_method ;          -- now grouping the payment_method column to get total by each method.
+GROUP BY payment_method ;     -- now grouping the payment_method column to get total by each method.
 ```
 
 **Result:**  
@@ -156,10 +156,10 @@ Branch Sales and Rating Query: This query combines total sales and average ratin
 
 ```SQL
 SELECT branch,
-SUM(total) as total_sales_amount,                         -- adding the total sales for each branch.
-AVG(rating) as Average_rating                             -- calculating the average rating for each branch.
+SUM(total) as total_sales_amount,     -- adding the total sales for each branch.
+AVG(rating) as Average_rating     -- calculating the average rating for each branch.
 FROM walmart_sales
-GROUP BY branch;                                          -- grouping by branch column to get combined data.
+GROUP BY branch;     -- grouping by branch column to get combined data.
 ```
 **Result:**  
 
@@ -177,10 +177,10 @@ City-Gender Sales Query: This query analyzes sales by city and gender combinatio
 
 
 ```SQL
-SELECT city, gender,                    -- listing the columns : city is 1 and gender is 2
-SUM(total)                              -- calculating the total amount of sales.
+SELECT city, gender,     -- listing the columns : city is 1 and gender is 2
+SUM(total)     -- calculating the total amount of sales.
 FROM walmart_sales
-GROUP BY 1, 2;                          -- grouping the data by city and gender columns to get desired results.
+GROUP BY 1, 2;      -- grouping the data by city and gender columns to get desired results.
 ```
 
 **Result:**  
@@ -203,10 +203,10 @@ Female Product Line Query: This query calculates average quantity sold to female
 
 ```SQL
 SELECT product_line,
-AVG(quantity)                                  -- calculating the average quantity of product sold.
+AVG(quantity)     -- calculating the average quantity of product sold.
 FROM walmart_sales
-WHERE gender = 'Female'                        -- filtering only the female customers.
-GROUP BY product_line;                         -- grouping by the category of the product.
+WHERE gender = 'Female'     -- filtering only the female customers.
+GROUP BY product_line;     -- grouping by the category of the product.
 ```
 
 **Result:**  
@@ -227,10 +227,10 @@ Member Sales by Branch Query: This query counts member transactions per branch u
 
 ```SQL
 SELECT branch,
-COUNT(invoice_id) as No_of_sales                     -- counting the sales made by each branch.
+COUNT(invoice_id) as No_of_sales      -- counting the sales made by each branch.
 FROM walmart_sales
-WHERE customer_type = 'Member'                       -- only by Walmart members.
-GROUP BY branch;                                     -- grouping by branch column to get combined data.
+WHERE customer_type = 'Member'     -- only by Walmart members.
+GROUP BY branch;     -- grouping by branch column to get combined data.
 ```
 
 **Result:**  
@@ -248,11 +248,11 @@ Daily Sales Query: This query uses TO_CHAR to extract day names from dates and c
 
 ```SQL
 SELECT
-TO_CHAR (date, 'Day') AS Day_name,                    -- extracting day from the time column.
-SUM(total) as total_sales_amount                      -- calculating total sales made.
+TO_CHAR (date, 'Day') AS Day_name,     -- extracting day from the time column.
+SUM(total) as total_sales_amount       -- calculating total sales made.
 FROM walmart_sales
-GROUP BY Day_name                                      -- grouping by day.
-ORDER BY total_sales_amount DESC;                      -- organising the total sales amount in descending order.
+GROUP BY Day_name     -- grouping by day.
+ORDER BY total_sales_amount DESC;     -- organising the total sales amount in descending order.
 ```
 
 **Result:**  
@@ -271,11 +271,11 @@ Hourly Sales Query: This query uses EXTRACT to get hours from time stamps and ca
 
 ```SQL
 SELECT
-EXTRACT ( HOUR FROM time) as hours,                 -- extracting hour from the time. Syntax: EXTRACT(part FROM date)
-SUM(total) as total_sales_amount                    -- calculating total sales.
+EXTRACT ( HOUR FROM time) as hours,     -- extracting hour from the time. Syntax: EXTRACT(part FROM date)
+SUM(total) as total_sales_amount     -- calculating total sales.
 FROM walmart_sales
-GROUP BY hours                                      -- grouping by day.
-order by total_sales_amount;                        -- organising the total sales amount in ascending order(default).
+GROUP BY hours     -- grouping by day.
+order by total_sales_amount;     -- organising the total sales amount in ascending order(default).
 ```
 
 **Result:**  
@@ -293,11 +293,11 @@ Monthly Sales Query: This query converts dates to month names using TO_CHAR and 
 
 ```SQL
 SELECT
-TO_CHAR (date, 'month') AS months,                          --converts the date into strings, here in months.
-SUM(total) as total_sales_amount                   -- calculating the total of sales amount.
+TO_CHAR (date, 'month') AS months,     --converts the date into strings, here in months.
+SUM(total) as total_sales_amount     -- calculating the total of sales amount.
 FROM walmart_sales
-GROUP BY months                                                                  -- grouping by months.
-ORDER BY total_sales_amount DESC;                     -- organising the total sales amount in descending order.
+GROUP BY months     -- grouping by months.
+ORDER BY total_sales_amount DESC;     -- organising the total sales amount in descending order.
 ```
 
 **Result:**  
@@ -316,11 +316,11 @@ High-Rating Branch Sales Query: This query finds branches with ratings > 7 using
 
 ```SQL
 SELECT branch,
-SUM(total) as total_sales_amount,                               -- calculating the total of sales amount.
-AVG(rating)                                                     -- calculating the average of ratings.
+SUM(total) as total_sales_amount,       -- calculating the total of sales amount.
+AVG(rating)     -- calculating the average of ratings.
 FROM walmart_sales
-GROUP BY branch                                                 -- grouping by branch.
-HAVING AVG(rating) > 7;                                         -- where average rating of the branch is greater than 7.
+GROUP BY branch     -- grouping by branch.
+HAVING AVG(rating) > 7;     -- where average rating of the branch is greater than 7.
 ```
 
 **Result:**  
@@ -339,10 +339,10 @@ Product Line VAT Query: This query calculates VAT totals for product lines with 
 
 ```SQL
 SELECT product_line,
-SUM(vat) as total_vat                                        -- calculating the total of vat amount.
+SUM(vat) as total_vat     -- calculating the total of vat amount.
 FROM walmart_sales
-GROUP BY product_line                                        -- grouping by product line.
-HAVING SUM(vat) > 500 ;                                      -- where sum of vat amount is greater than 500.
+GROUP BY product_line     -- grouping by product line.
+HAVING SUM(vat) > 500 ;     -- where sum of vat amount is greater than 500.
 ```
 
 **Result:**  
@@ -361,10 +361,10 @@ Gender-Branch Average Sales Query: This query calculates average sales by gender
 ```SQL
 SELECT branch,
 gender,
-AVG(total) as branch_total                                     -- calculating the average of total sales amount.
+AVG(total) as branch_total     -- calculating the average of total sales amount.
 FROM walmart_sales
-GROUP BY branch, gender                                        -- grouping by branch and gender both.
-ORDER BY branch;                                               -- ordering the data by branch.
+GROUP BY branch, gender     -- grouping by branch and gender both.
+ORDER BY branch;       -- ordering the data by branch.
 ```
 
 **Result:**  
@@ -381,10 +381,10 @@ Weekly Transaction Count Query: This query counts transactions per weekday using
 
 ```SQL
 SELECT
-TO_CHAR (date, 'Day') AS Day_name,                       --converts the date into strings, here in days.
-COUNT(payment_method) as no_of_sales                     --calculating total sales made by different payment method on each day.
+TO_CHAR (date, 'Day') AS Day_name,     --converts the date into strings, here in days.
+COUNT(payment_method) as no_of_sales      --calculating total sales made by different payment method on each day.
 FROM walmart_sales
-GROUP BY Day_name;                                       --grouping by the day
+GROUP BY Day_name;      --grouping by the day
 ```
 
 **Result:**  
@@ -403,11 +403,11 @@ City-Customer Type Sales Query: This query analyzes sales by city and customer t
 ```SQL
 SELECT city,
 customer_type,
-SUM(total) as total_sales                              --calculating sum of total sales amount.
+SUM(total) as total_sales      --calculating sum of total sales amount.
 FROM walmart_sales
-GROUP BY city, customer_type                           --grouping the data by city and customer_type both.
-HAVING COUNT(payment_method) > 50                      --providing the results for city where no. of payments are greater than 50.
-ORDER BY city;                                         --ordering the data by city.
+GROUP BY city, customer_type       --grouping the data by city and customer_type both.
+HAVING COUNT(payment_method) > 50       --providing the results for city where no. of payments are greater than 50.
+ORDER BY city;     --ordering the data by city.
 ```
 
 **Result:**  
@@ -424,12 +424,12 @@ Product Line-Payment Method Query: This query calculates average unit prices acr
 
 
 ```SQL
-SELECT product_line,                                      --1
-payment_method,                                           --2
-AVG(unit_price) as avg_unit_price                         --calculating average unit price for each product line.
+SELECT product_line,     --1
+payment_method,       --2
+AVG(unit_price) as avg_unit_price     --calculating average unit price for each product line.
 FROM walmart_sales
-GROUP BY 1 , 2                                            --grouping by 1 & 2.
-ORDER BY product_line;                                    --ordering by product line.
+GROUP BY 1 , 2     --grouping by 1 & 2.
+ORDER BY product_line;       --ordering by product line.
 ```
 
 **Result:**  
@@ -448,11 +448,11 @@ Time Period Sales Query: This uses a CTE (WITH clause) to categorize sales into 
 
 ```SQL
 SELECT branch,
-EXTRACT( HOUR FROM time) AS hour_of_the_day,        --extracting hour from time column.
-SUM(total) AS total_sales                           --calculating sum of total sales amount.
+EXTRACT( HOUR FROM time) AS hour_of_the_day,     --extracting hour from time column.
+SUM(total) AS total_sales       --calculating sum of total sales amount.
 FROM walmart_sales
-GROUP BY branch, hour_of_the_day                    --grouping by branch and hour.
-ORDER BY branch, hour_of_the_day;                   --ordering ths data by branch and hour.
+GROUP BY branch, hour_of_the_day     --grouping by branch and hour.
+ORDER BY branch, hour_of_the_day;      --ordering ths data by branch and hour.
 ```
 
 **Result:**
@@ -472,12 +472,12 @@ product categories and their customer satisfaction levels
 
 ```SQL
 SELECT product_line,
-SUM(total) as total_sales,                                   --calculating sum of total sales amount.
-AVG(rating) as avg_rating                                    --calculating the average of rating for each product line.
+SUM(total) as total_sales,      --calculating sum of total sales amount.
+AVG(rating) as avg_rating       --calculating the average of rating for each product line.
 FROM walmart_sales
-GROUP BY product_line                                        --grouping the data by product line.
-HAVING SUM(total)  > 1000                                    --where total sales are greater than 1000.
-ORDER BY product_line;                                       --ordering by product line.
+GROUP BY product_line     --grouping the data by product line.
+HAVING SUM(total)  > 1000       --where total sales are greater than 1000.
+ORDER BY product_line;      --ordering by product line.
 ```
 **Result:**  
 
@@ -494,7 +494,7 @@ This complex query uses a CTE (Common Table Expression) to categorize sales into
 afternoon (12 PM to 6 PM), and evening (6 PM to 12 AM) periods. It then calculates total sales for each time period,
 helping understand peak sales times and customer shopping patterns throughout the day.
 ```SQL
-WITH new_table                                                --creating a new temporary table to convert time into shifts.
+WITH new_table     --creating a new temporary table to convert time into shifts.
 AS
 (SELECT *,
 CASE
@@ -502,12 +502,12 @@ WHEN EXTRACT(HOUR FROM time) BETWEEN 6 AND 12 THEN 'Morning'
 WHEN EXTRACT(HOUR FROM time) > 12 AND EXTRACT(HOUR FROM time) <= 18 THEN 'Afternoon'
 ELSE 'Evening'
 END as shifts
-FROM walmart_sales)                                         --extracting morning, afternoon and evening shift from the time column.
+FROM walmart_sales)     --extracting morning, afternoon and evening shift from the time column.
 
 SELECT shifts,
-SUM(total) as total_sales                                   --calculating sum of total sales amount.
+SUM(total) as total_sales      --calculating sum of total sales amount.
 FROM new_table
-GROUP BY shifts;                                            --grouping the total sales made at each shift.
+GROUP BY shifts;     --grouping the total sales made at each shift.
 ```
 
 **Result:**  
