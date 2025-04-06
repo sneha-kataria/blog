@@ -21,6 +21,9 @@ build complexity. To follow along, you can use the Walmart sales dataset for dat
 Before diving into queries, the first step is to create a table in PostgreSQL and upload the dataset. 
 Use the following CREATE TABLE command to structure your database with appropriate column names and data types.
 
+### CREATE TABLE Query 
+This query creates a new table named "walmart_sales" with specified columns and their data types. 
+It defines the structure for storing Walmart sales data with appropriate constraints.
 ```SQL
 CREATE TABLE walmart_sales(
     invoice_id VARCHAR(15),             -- string with maximum length of 15 characters.
@@ -53,6 +56,8 @@ and it will display all the records. It can also verify that all the data has be
 
 ### Find the total sales amount for each branch.
 
+Branch Total Sales Query: This query calculates total sales by branch. It uses SUM() to aggregate sales and GROUP BY to get branch-wise totals.
+
 ```SQL
 SELECT branch,                        -- filtering branch column.
 SUM(total) as branch_total            -- adding the sales total for each branch and naming it.
@@ -70,6 +75,8 @@ The Branch D is performing well with the highest sum of sales whereas Branch A n
 to increase its sale. 
 
 ### Calculate the average customer rating for each city.
+City Average Rating Query: This query finds average customer ratings for each city using AVG() function and groups results by city.
+
 
 ```SQL
 SELECT city,
@@ -88,6 +95,8 @@ New plans and strategy should be made to increase the ratings in the city where 
 
 
 ### Count the number of sales transactions for each customer type.
+Customer Type Sales Count Query: This query counts sales transactions by customer type (member/non-member) using COUNT(*) and GROUP BY.
+
 
 ```SQL
 SELECT customer_type,
@@ -103,6 +112,8 @@ GROUP BY customer_type;                -- grouping by  customer_type column to g
 The number sales made by members and non-members is almost the same in 3 months, hence new discounts and offers could be generated to get more customers to convert into taking the membership. Incentives are not high.
 
 ### Find the total quantity of products sold for each product line.
+Product Line Quantity Query: This query sums up quantities sold for each product line using COUNT(quantity) and GROUP BY.
+
 
 ```SQL
 SELECT product_line,
@@ -120,6 +131,8 @@ GROUP BY product_line ;              -- grouping by product_line column to combi
 Health and Beauty department sold slightly less than other departments. So to increase the sales, new ads and offers needs to be launched.
 
 ### Calculate the total VAT collected for each payment method.
+Payment Method VAT Query: This query calculates total VAT collected for each payment method using SUM(vat) and GROUP BY.
+
 
 ```SQL
 SELECT payment_method,
@@ -137,6 +150,7 @@ GROUP BY payment_method ;          -- now grouping the payment_method column to 
 This data shows people prefer cash or Ewallet transactions more to regulate their spendings. Hence, we could provide smooth credit card transaction process and low rates on high-cost transactions to save customers some bucks.
 
 ### Find the total sales amount and average customer rating for each branch.
+Branch Sales and Rating Query: This query combines total sales and average ratings per branch, using multiple aggregations (SUM and AVG) with GROUP BY.
 
 ```SQL
 SELECT branch,
@@ -150,11 +164,15 @@ GROUP BY branch;                                          -- grouping by branch 
 ![img.png](/blog/assets/images/sql_data_analysis/Q6.png)
 
 **Insights:**  
-
+Branch D not only has the highest total sales amount but also maintains a good average customer rating, indicating 
+effective customer service alongside strong sales performance. Branch A, while having lower sales, maintains a 
+competitive customer rating, suggesting good service quality despite lower sales volume.
 
 
 
 ### Calculate the total sales amount for each city and gender combination.
+City-Gender Sales Query: This query analyzes sales by city and gender combinations using GROUP BY with multiple columns and numbered references (1,2).
+
 
 ```SQL
 SELECT city, gender,                    -- listing the columns : city is 1 and gender is 2
@@ -172,10 +190,14 @@ GROUP BY 1, 2;                          -- grouping the data by city and gender 
 
 **Insights:**  
 
-
+The sales distribution across city and gender combinations shows varying patterns of purchasing behavior in different 
+locations. This data can be used to tailor marketing strategies and inventory management specific to each city's 
+gender-based purchasing patterns.
 
 
 ### Find the average quantity of products sold for each product line to female customers.
+Female Product Line Query: This query calculates average quantity sold to female customers for each product line, using WHERE to filter gender and GROUP BY.
+
 
 ```SQL
 SELECT product_line,
@@ -192,11 +214,14 @@ GROUP BY product_line;                         -- grouping by the category of th
 
 **Insights:**  
 
-
+Female customers show different purchasing quantities across product lines, which can help in inventory planning and
+targeted marketing campaigns. This data can be used to optimize stock levels and create gender-specific promotions.
 
 
 
 ### Count the number of sales transactions for members in each branch.
+Member Sales by Branch Query: This query counts member transactions per branch using COUNT and WHERE to filter for members only.
+
 
 ```SQL
 SELECT branch,
@@ -211,10 +236,13 @@ GROUP BY branch;                                     -- grouping by branch colum
 ![img.png](/blog/assets/images/sql_data_analysis/Q9.png)
 
 **Insights:**  
-
+The distribution of member sales across branches shows where membership programs are most successful. 
+This information can be used to analyze and replicate successful membership strategies from high-performing branches to others.
 
 
 ### Find the total sales amount for each day. (Return day name and their total sales order DESC by amt)
+Daily Sales Query: This query uses TO_CHAR to extract day names from dates and calculates total sales per day, ordered by amount.
+
 
 ```SQL
 SELECT
@@ -232,10 +260,12 @@ ORDER BY total_sales_amount DESC;                      -- organising the total s
 
 **Insights:**  
 
-Stay tuned as we explore more SQL queries, each tied to a specific business problem, to strengthen both your technical skills and analytical thinking.
-
+Sales show significant variation across different days of the week, which can be used for better staff scheduling 
+and inventory management. Peak sales days can be identified for optimal resource allocation.
 
 ### Calculate the total sales amount for each hour of the day.
+Hourly Sales Query: This query uses EXTRACT to get hours from time stamps and calculates sales totals per hour.
+
 
 ```SQL
 SELECT
@@ -251,10 +281,13 @@ order by total_sales_amount;                        -- organising the total sale
 ![img.png](/blog/assets/images/sql_data_analysis/Q11.png)
 
 **Insights:**  
-
+The hourly sales pattern reveals peak shopping hours and slower periods, which can be used for staff scheduling, 
+planning promotional activities, and managing store operations more efficiently.
 
 
 ### Find the total sales amount for each month. (return month name and their sales)
+Monthly Sales Query: This query converts dates to month names using TO_CHAR and calculates monthly sales totals.
+
 
 ```SQL
 SELECT
@@ -272,9 +305,12 @@ ORDER BY total_sales_amount DESC;                     -- organising the total sa
 
 **Insights:**  
 
+Monthly sales variations indicate seasonal trends and can be used for better inventory planning and seasonal promotional strategies.
 
 
 ### Calculate the total sales amount for each branch where the average customer rating is greater than 7.
+High-Rating Branch Sales Query: This query finds branches with ratings > 7 using HAVING clause with AVG(rating).
+
 
 ```SQL
 SELECT branch,
@@ -292,9 +328,12 @@ HAVING AVG(rating) > 7;                                         -- where average
 
 **Insights:**  
 
-
+Branches with high customer ratings (>7) demonstrate strong performance in both sales and customer satisfaction, 
+providing benchmark practices for other branches.
 
 ### Find the total VAT collected for each product line where the total sales amount is more than 500.
+Product Line VAT Query: This query calculates VAT totals for product lines with sales > 500 using HAVING clause.
+
 
 ```SQL
 SELECT product_line,
@@ -310,9 +349,12 @@ HAVING SUM(vat) > 500 ;                                      -- where sum of vat
 
 **Insights:**  
 
+Product lines with high VAT collection indicate high-value sales categories, which can be focused on for revenue optimization.
 
 
 ### Calculate the average sales amount for each gender in each branch.
+Gender-Branch Average Sales Query: This query calculates average sales by gender within each branch using multiple GROUP BY columns.
+
 
 ```SQL
 SELECT branch,
@@ -328,10 +370,12 @@ ORDER BY branch;                                               -- ordering the d
 ![img.png](/blog/assets/images/sql_data_analysis/Q15.png)
 
 **Insights:**  
-
+Gender-based sales patterns across branches can help in tailoring branch-specific marketing strategies and product placement.
 
 
 ### Count the number of sales transactions for each day of the week.
+Weekly Transaction Count Query: This query counts transactions per weekday using TO_CHAR for day names.
+
 
 ```SQL
 SELECT
@@ -347,9 +391,12 @@ GROUP BY Day_name;                                       --grouping by the day
 
 **Insights:**  
 
-
+Understanding daily transaction patterns helps in optimizing staffing levels and operational hours for different days 
+of the week.
 
 ### Find the total sales amount for each city and customer type combination where the number of sales transactions is greater than 50.
+City-Customer Type Sales Query: This query analyzes sales by city and customer type for locations with >50 transactions.
+
 
 ```SQL
 SELECT city,
@@ -367,9 +414,12 @@ ORDER BY city;                                         --ordering the data by ci
 
 
 **Insights:**  
-
+The combination of city and customer type data reveals where membership programs are most successful and which 
+cities have the highest transaction volumes.
 
 ### Calculate the average unit price for each product line and payment method combination.
+Product Line-Payment Method Query: This query calculates average unit prices across product lines and payment methods.
+
 
 ```SQL
 SELECT product_line,                                      --1
@@ -387,10 +437,12 @@ ORDER BY product_line;                                    --ordering by product 
 
 
 **Insights:**  
-
+Understanding price points across product lines and payment methods can help in pricing strategy and payment method promotions.
 
 
 ### Find the total sales amount for each branch and hour of the day combination.
+Time Period Sales Query: This uses a CTE (WITH clause) to categorize sales into morning/afternoon/evening periods and calculates totals for each.
+
 
 ```SQL
 SELECT branch,
@@ -406,11 +458,15 @@ ORDER BY branch, hour_of_the_day;                   --ordering ths data by branc
 ![img.png](/blog/assets/images/sql_data_analysis/Q19.png)
 
 **Insights:**  
-
+The sales pattern across different hours for each branch helps in understanding branch-specific peak hours and 
+can be used for local operational planning.
 
 
 
 ### Calculate the total sales amount and average customer rating for each product line where the total sales amount is greater than 1000.
+This query analyzes high-performing product lines by calculating their total sales and average ratings.
+It filters for product lines with sales over $1000 using HAVING clause, helping identify successful
+product categories and their customer satisfaction levels
 
 ```SQL
 SELECT product_line,
@@ -428,12 +484,14 @@ ORDER BY product_line;                                       --ordering by produ
 
 **Insights:**  
 
-
+High-performing product lines (>$1000 in sales) with their corresponding customer ratings provide valuable information
+for product focus and improvement areas.
 
 ### Calculate the total sales amount for morning (6 AM to 12 PM), afternoon (12 PM to 6 PM), and evening (6 PM to 12 AM) periods using the time condition.
-
+This complex query uses a CTE (Common Table Expression) to categorize sales into morning (6 AM to 12 PM),
+afternoon (12 PM to 6 PM), and evening (6 PM to 12 AM) periods. It then calculates total sales for each time period,
+helping understand peak sales times and customer shopping patterns throughout the day.
 ```SQL
-SELECT * from walmart_sales;
 WITH new_table                                                --creating a new temporary table to convert time into shifts.
 AS
 (SELECT *,
@@ -455,5 +513,6 @@ GROUP BY shifts;                                            --grouping the total
 ![img.png](/blog/assets/images/sql_data_analysis/Q21.png)
 
 **Insights:**  
-
+The time-of-day analysis shows sales patterns across different periods, which can be used for staffing optimization,
+inventory management, and planning promotional activities during peak or slow periods.
 
