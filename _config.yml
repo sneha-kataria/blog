@@ -3,7 +3,7 @@ name: 'Sneha Kataria'
 description: 'SK blog'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: '/blog'
+baseurl: '/'
 email: 'snehakataria1244@gmail.com'
 
 include: ["_pages"]
