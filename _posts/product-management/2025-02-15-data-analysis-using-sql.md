@@ -4,7 +4,7 @@ title: "Mastering SQL Through Real-World Business Problems"
 author: Sneha
 categories: [ product-management ]
 tags: [ sql, data-analysis]
-image: https://sneha-kataria.github.io/blog/assets/images/hyperlocal_product_recommendation/home_page.png
+image: https://sneha-kataria.github.io/blog/assets/images/sql_data_analysis/sql-data-analysis.png
 date: 2024-12-15 10:00:00 -0700
 ---
 Learning SQL is often about syntax, but understanding how to apply it to real-world business challenges is equally 
@@ -14,6 +14,8 @@ solving actual data problems.
 In this blog, I share insights from my own SQL practice sessions, breaking down business problems into queries while
 illustrating the approach to visualizing and solving them. We'll start with some fundamental queries and gradually
 build complexity. To follow along, you can use the Walmart sales dataset for data analysis in PostgreSQL.
+
+![Home Page](/blog/assets/images/sql_data_analysis/sql-data-analysis.png)
 
 
 ## Setting Up Your Database
