@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Youtube: Proposing multilingual audio and video subtitles using LLM"
+title: "Youtube: proposing multilingual audio and video subtitles using LLM"
 author: Sneha
 categories: [ product-management ]
 tags: [ product-market fit, ideas]
