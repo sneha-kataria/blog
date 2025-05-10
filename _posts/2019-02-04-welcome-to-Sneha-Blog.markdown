@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Sneha Kataria's Portfolio!"
 categories: [ Portfolio ]
-image: https://sneha-kataria.github.io/blog/assets/images/demo1.jpg
+image: https://sneha-kataria.github.io/blog/assets/images/sneha-kataria.png
 ---
 Hi, I'm Sneha! In the following blog I will summarize my work experience.
 
