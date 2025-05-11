@@ -7,21 +7,32 @@ comments: true
 ---
 Hi, I'm Sneha!
 
-With seven years of experience in the **customer-facing industry**, I bring a strategic and results-driven approach to
-product management.
+I'm a PM and project leader who blends strategic thinking with hands-on execution to
+deliver impactful, data-driven solutions. With a Tech MBA from the University of
+Washington and a foundation in architecture, I bring a unique mix of creative
+problem-solving, analytical rigor, and operational discipline to every product I help
+build.
 
-Proven track record of directing **cross-functional teams** to align strategies with business goals and industry trends.
-Collaborated with stakeholders, including **clients, VPs, and founders**, to drive strategic decision-making, achieving
-measurable results such as a **15% increase in customer acquisition** and a **20% boost in revenue growth**.
-Successfully managed multiple projects simultaneously with a **95% success rate, enhancing operational efficiency
-by 15%.**
+My strength lies in connecting product vision with execution. I’ve led initiatives that
+improved team efficiency by 30%, increased user engagement by 15%, and drove
+revenue growth by 20%. I apply project management frameworks—refined through
+my MBA and real-world experience—to set clear goals, manage risk, and ship
+results at scale. From backlog grooming to stakeholder alignment, I bring clarity,
+momentum, and focus across the product lifecycle.
 
-Established **strong client relationships,** leading to **multi-million-dollar deal** and demonstrating
-customer-centric approaches. Skilled in **roadmap development, task prioritization**, and seamless coordination
-across teams, ensuring timely delivery and high-quality outcomes. Recognized for fostering **trust, meticulous planning,
-and aligning product goals** with organizational vision.
+At RSP, I led a 20-person cross-functional team, restructured key workflows, and
+played a direct role in securing a multimillion-dollar deal. I optimized design
+processes to boost efficiency by 20%, while consistently ensuring that our work
+aligned with both user needs and business goals.
 
-My guiding principles includes **customer obsession and embrace uncertainty.**
+I'm fluent in tools like SQL, Excel, Tableau, Power BI, Figma, Confluence and Google
+Analytics—turning data into insights that drive smart decisions. Whether shaping
+MVPs, testing product-market fit, or refining features post-launch, I stay focused on
+building products that deliver real value.
 
-If you'd like to chat with me about anything you can reach me on linkedIn.
-Thanks for visiting
+I’ve also completed Stanford’s “Mastering Product Management” program, further
+sharpening my ability to align strategy and execution. My MBA emphasis on project
+and operations management gives me the tools to lead cross-functional teams with
+confidence and consistency.
+
+Feel free to connect and chat.
