@@ -3,7 +3,7 @@ layout: post
 title: "Finding product market fit for competitive hyperlocal market"
 author: Sneha
 categories: [ product-management ]
-tags: [ product-market fit, ideas]
+tags: [ product-market fit, ideas, featured]
 image: https://sneha-kataria.github.io/blog/assets/images/hyperlocal_product_recommendation/home_page.png
 date: 2024-12-15 10:00:00 -0700
 ---

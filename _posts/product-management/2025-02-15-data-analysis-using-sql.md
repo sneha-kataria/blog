@@ -3,7 +3,7 @@ layout: post
 title: "Mastering SQL Through Real-World Business Problems"
 author: Sneha
 categories: [ product-management ]
-tags: [ sql, data-analysis]
+tags: [ sql, data-analysis, featured]
 image: https://sneha-kataria.github.io/blog/assets/images/sql_data_analysis/sql-data-analysis.png
 date: 2024-12-15 10:00:00 -0700
 ---

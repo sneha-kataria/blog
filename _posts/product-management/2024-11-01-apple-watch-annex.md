@@ -3,7 +3,7 @@ layout: post
 title: "Apple watch: proposing new mental health application"
 author: Sneha
 categories: [ product-management ]
-tags: [ product-market fit, ideas]
+tags: [ product-market fit, ideas, featured]
 image: https://sneha-kataria.github.io/blog/assets/images/apple_watch/home_page.jpg
 date: 2024-11-01 10:00:00 -0700
 ---
