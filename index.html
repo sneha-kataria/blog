@@ -38,83 +38,29 @@ description: "Hey I am Sneha Kataria, and this my blog."
         </div>
     </div>
     <div class="col-md-3">
-        {% assign second_post = site.posts | where: "path", "_posts/product-management/2024-11-01-apple-watch-annex.md" | first %}
-        <div class="mb-3 d-flex align-items-center">
-            {% if second_post.image %}
-            <div class="col-md-4">
-                <a href="{{site.baseurl}}{{second_post.url}}">
-                    <img class="w-100" src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %}" alt="{{ second_post.title }}">
+        <div class="contact-links">
+            <!-- LinkedIn -->
+            <div class="contact-item">
+                <a href="https://www.linkedin.com/in/snehakataria/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
                 </a>
             </div>
-            {% endif %}
-            <div>
-                <h2 class="mb-2 h6 font-weight-bold">
-                    <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
-                </h2>
-                <small class="d-block text-muted">
-                    In <span class="catlist">
-            {% for category in second_post.categories %}
-            <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
-            {% endfor %}
-            </span>
-                </small>
-                <small class="text-muted">
-                    <!--                        {{ second_post.date | date: '%b %d, %Y' }}-->
-                </small>
-            </div>
-        </div>
-        <!-- third latest post -->
-        <!--        {%- assign third_post = site.posts[2] -%}-->
-        {% assign third_post = site.posts | where: "path", "_posts/product-management/2025-02-15-data-analysis-using-sql.md" | first %}
-        <div class="mb-3 d-flex align-items-center">
-            {% if third_post.image %}
-            <div class="col-md-4">
-                <a href="{{site.baseurl}}{{third_post.url}}">
-                    <img class="w-100" src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{site.baseurl}}/{{ third_post.image }}{% endif %}" alt="{{ third_post.title }}">
+
+            <!-- GitHub -->
+            <div class="contact-item">
+                <a href="https://github.com/sneha-kataria" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
                 </a>
             </div>
-            {% endif %}
-            <div>
-                <h2 class="mb-2 h6 font-weight-bold">
-                    <a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>
-                </h2>
-                <small class="d-block text-muted">
-                    In <span class="catlist">
-            {% for category in third_post.categories %}
-            <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
-            {% endfor %}
-            </span>
-                </small>
-                <small class="text-muted">
-                    <!--                        {{ third_post.date | date: '%b %d, %Y' }}-->
-                </small>
-            </div>
-        </div>
-        <!-- fourth latest post -->
-        <!--        {%- assign fourth_post = site.posts[3] -%}     -->
-        {% assign fourth_post = site.posts | where: "path", "_posts/product-management/2024-12-15-hyper-local-product-market-fit.md" | first %}
-        <div class="mb-3 d-flex align-items-center">
-            {% if fourth_post.image %}
-            <div class="col-md-4">
-                <a href="{{site.baseurl}}{{fourth_post.url}}">
-                    <img class="w-100" src="{% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}{{site.baseurl}}/{{ fourth_post.image }}{% endif %}" alt="{{ fourth_post.title }}">
+
+            <!-- Email -->
+            <div class="contact-item">
+                <a href="mailto:snehakataria1244@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
                 </a>
-            </div>
-            {% endif %}
-            <div>
-                <h2 class="mb-2 h6 font-weight-bold">
-                    <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
-                </h2>
-                <small class="d-block text-muted">
-                    In <span class="catlist">
-            {% for category in fourth_post.categories %}
-            <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
-            {% endfor %}
-            </span>
-                </small>
-                <small class="text-muted">
-                    <!--                        {{ fourth_post.date | date: '%b %d, %Y' }}-->
-                </small>
             </div>
         </div>
     </div>
