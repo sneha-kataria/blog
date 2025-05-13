@@ -4,7 +4,8 @@ permalink: "/contact.html"
 ---
 
 <form action="https://formspree.io/f/xovengga" method="POST">    
-<p class="mb-4">Please send your message to {{site.name}}. We will reply as soon as possible!</p>
+<p class="mb-4">Want to work with me or have a question?</p>
+<p class="mb-4">snehakataria1244@gmail.com</p>
 <div class="form-group row">
 <div class="col-md-6">
 <input class="form-control" type="text" name="name" placeholder="Name*" required>
@@ -17,9 +18,9 @@ permalink: "/contact.html"
 <input class="btn btn-success" type="submit" value="Send">
 </form>
 
-<div class="contact-links">
+<div class="container">
     <!-- LinkedIn -->
-    <p class="mb-4">Social Media contacts </p>
+    <h3 class="font-weight-bold spanborder"><span>Lets Connect on </span></h3>
     <div class="contact-item">
         <a href="https://www.linkedin.com/in/snehakataria/" target="_blank" style="font-size:38px;color: black;">
             <i class="fab fa-linkedin"></i>
