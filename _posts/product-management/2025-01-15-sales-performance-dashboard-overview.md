@@ -22,6 +22,22 @@ image: https://sneha-kataria.github.io/blog/assets/images/sales_performance_dash
 4.	**Strengthen Supplier Competitiveness**   
       Evaluate brand-wise contribution from each supplier to identify market dominance, gaps, and opportunities for introducing new competitive partnerships.
 
+### Mat profit
+
+![mat_profit.png](/blog/assets/images/sales_performance_dashboard/mat_profit.png)
+
+### Market Share
+
+![market_share.png](/blog/assets/images/sales_performance_dashboard/market_share.png)
+
+### Product Details
+
+![product_details.png](/blog/assets/images/sales_performance_dashboard/product_details.png)
+
+### Year over Year profit
+
+![year_over_year_profits.png](/blog/assets/images/sales_performance_dashboard/year_over_year_profits.png)
+
 ### Key Dashboard Insights
 1. Yearly Profitability Trends
    - Historical profit trends from 2018–2023 indicate volatility across brands.
@@ -39,22 +55,6 @@ image: https://sneha-kataria.github.io/blog/assets/images/sales_performance_dash
    - Steel Power (under Iron Strength Equipment Co.) ranks highest in MAT profit ($158,973), indicating strong brand equity and market penetration.
    - Brands with declining year-over-year performance like Summit Strength and Hercules Gear need targeted interventions or repositioning.
    - Brands such as Elevate Fitness and Apex Athletics have high potential to be scaled further, based on their strong 2024 MAT profitability.
-
-### Mat profit
-
-![mat_profit.png](/blog/assets/images/sales_performance_dashboard/mat_profit.png)
-
-### Market Share
-
-![market_share.png](/blog/assets/images/sales_performance_dashboard/market_share.png)
-
-### Product Details
-
-![product_details.png](/blog/assets/images/sales_performance_dashboard/product_details.png)
-
-### Year over Year profit
-
-![year_over_year_profits.png](/blog/assets/images/sales_performance_dashboard/year_over_year_profits.png)
 
 ### Actionable Recommendations
 - Boost Profitable Brands: Increase investment and marketing for top brands like Steel Power, Forge Fitness, and Elevate Fitness.
