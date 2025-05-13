@@ -12,9 +12,9 @@ image: https://sneha-kataria.github.io/blog/assets/images/customer_review_dashbo
 
 ![dashboard_pic_2.png](/blog/assets/images/customer_review_dashboard/dashboard_pic_2.png)
 
-**Market:** Global
-**Industry:** Airline & Travel
-**Category:** Tableau-Based Data Analysis
+**Market:** Global   
+**Industry:** Airline & Travel   
+**Category:** Tableau-Based Data Analysis   
 
 ### Purpose of the Dashboard
 The customer review dashboard was developed using Tableau to surface data-driven insights from British Airline passengers. These insights are designed to inform strategic decisions around revenue growth, customer experience, and market expansion, with a specific focus on aligning operational efforts to customer expectations.
