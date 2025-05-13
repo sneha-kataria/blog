@@ -8,6 +8,8 @@ image: https://sneha-kataria.github.io/blog/assets/images/customer_review_dashbo
 ---
 
 ![dashboard_pic_1.png](/blog/assets/images/customer_review_dashboard/dashboard_pic_1.png)
+    
+
 ![dashboard_pic_2.png](/blog/assets/images/customer_review_dashboard/dashboard_pic_2.png)
 
 **Market:** Global
