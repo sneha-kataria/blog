@@ -1,9 +1,8 @@
 ---
-title: "About"
-layout: page-sidebar
+title:  "Welcome to Sneha Kataria's Portfolio!"
+layout: post
 permalink: "/about.html"
-#image: "/assets/images/screenshot.jpg"
-comments: true
+image: https://sneha-kataria.github.io/blog/assets/images/sneha-kataria.jpg
 ---
 Hi, I'm Sneha!
 
