@@ -3,7 +3,7 @@ layout: post
 title: "Customer review dashboard insights report"
 author: Sneha
 categories: [ product-management ]
-tags: [ sql, data-analysis, featured]
+tags: [ sql, data-analysis]
 image: https://sneha-kataria.github.io/blog/assets/images/customer_review_dashboard/home.png
 ---
 
