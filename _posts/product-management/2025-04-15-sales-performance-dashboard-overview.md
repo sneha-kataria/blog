@@ -3,7 +3,7 @@ layout: post
 title: "Sales performance dashboard overview"
 author: Sneha
 categories: [ product-management ]
-tags: [ sql, data-analysis]
+tags: [ sql, data-analysis, featured]
 image: https://sneha-kataria.github.io/blog/assets/images/sales_performance_dashboard/home.jpg
 ---
 

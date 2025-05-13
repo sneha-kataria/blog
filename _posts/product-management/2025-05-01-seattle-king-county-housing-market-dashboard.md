@@ -3,7 +3,7 @@ layout: post
 title: "Seattle King county housing market dashboard analysis using Tableau"
 author: Sneha
 categories: [ product-management ]
-tags: [ sql, data-analysis]
+tags: [ sql, data-analysis, featured]
 image: https://sneha-kataria.github.io/blog/assets/images/seattle_king_housing_dashboard/home.png
 ---
 
