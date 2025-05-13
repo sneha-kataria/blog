@@ -4,7 +4,7 @@ title: "Sales performance dashboard overview"
 author: Sneha
 categories: [ product-management ]
 tags: [ sql, data-analysis]
-image: https://sneha-kataria.github.io/blog/assets/images/sales_performance_dashboard/home.png
+image: https://sneha-kataria.github.io/blog/assets/images/sales_performance_dashboard/home.jpg
 ---
 
 
