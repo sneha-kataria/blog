@@ -5,7 +5,6 @@ author: Sneha
 categories: [ product-management ]
 tags: [ product-market fit, ideas]
 image: https://sneha-kataria.github.io/blog/assets/images/airbnb_proposal_recommendation/home_page.png
-date: 2024-12-01 10:00:00 -0700
 ---
 
 Over-whelmed by the hundreds of options and search categories, providing a personalised suggestion bar based on user

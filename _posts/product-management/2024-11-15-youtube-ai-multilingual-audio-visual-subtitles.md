@@ -5,7 +5,6 @@ author: Sneha
 categories: [ product-management ]
 tags: [ product-market fit, ideas]
 image: https://sneha-kataria.github.io/blog/assets/images/youtube_multilingual/home_page.png
-date: 2024-11-15 10:00:00 -0700
 ---
 
 Transforming the overall watching experience by translating every video in any selected language using AI to increase

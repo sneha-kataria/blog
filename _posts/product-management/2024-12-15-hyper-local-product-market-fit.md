@@ -5,7 +5,6 @@ author: Sneha
 categories: [ product-management ]
 tags: [ product-market fit, ideas, featured]
 image: https://sneha-kataria.github.io/blog/assets/images/hyperlocal_product_recommendation/home_page.png
-date: 2024-12-15 10:00:00 -0700
 ---
 
 A solution for user to find and order local nearby products based on their preferences in a snap of time and use their time efficiently.

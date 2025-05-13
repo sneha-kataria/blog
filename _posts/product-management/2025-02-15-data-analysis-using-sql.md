@@ -5,7 +5,6 @@ author: Sneha
 categories: [ product-management ]
 tags: [ sql, data-analysis, featured]
 image: https://sneha-kataria.github.io/blog/assets/images/sql_data_analysis/sql-data-analysis.png
-date: 2024-12-15 10:00:00 -0700
 ---
 Learning SQL is often about syntax, but understanding how to apply it to real-world business challenges is equally 
 important. While many tutorials focus on teaching SQL commands, they often miss explaining the thought process behind

@@ -5,7 +5,6 @@ author: Sneha
 categories: [ product-management ]
 tags: [ product-market fit, ideas, Press Release, PR-FAQ]
 image: https://sneha-kataria.github.io/blog/assets/images/insurance_app/home_page.png
-date: 2024-11-01 10:00:00 -0700
 ---
 
 Press Release for insurance app update by introducing amazing ideas.
