@@ -1,6 +1,7 @@
 ---
-title:  "Welcome to Sneha Kataria's Portfolio!"
 layout: post
+title:  "Welcome to Sneha Kataria's Portfolio!"
+author: Sneha
 permalink: "/about.html"
 image: https://sneha-kataria.github.io/blog/assets/images/sneha-kataria.jpg
 ---
