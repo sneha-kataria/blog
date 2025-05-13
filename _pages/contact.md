@@ -19,21 +19,16 @@ permalink: "/contact.html"
 
 <div class="contact-links">
     <!-- LinkedIn -->
+    <p class="mb-4">Social Media contacts </p>
     <div class="contact-item">
         <a href="https://www.linkedin.com/in/snehakataria/" target="_blank" style="font-size:38px;color: black;">
             <i class="fab fa-linkedin"></i>
             <span>LinkedIn</span>
-        </a>
-    </div>
-    <!-- GitHub -->
-    <div class="contact-item">
+        </a> &nbsp;&nbsp;&nbsp;&nbsp;
         <a href="https://github.com/sneha-kataria" target="_blank" style="font-size:38px;color: black;">
             <i class="fab fa-github"></i>
             <span>GitHub</span>
-        </a>
-    </div>
-    <!-- Email -->
-    <div class="contact-item">
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="mailto:snehakataria1244@gmail.com" style="font-size:38px;color: black;">
             <i class="fas fa-envelope"></i>
             <span>Email</span>
