@@ -21,30 +21,32 @@ permalink: "/contact.html"
             <input class="btn btn-success mb-4" type="submit" value="Send">
          </form>
       </div>
-   </div>
-   <div class="col-md-4">
-      <div class="contact-links">
-         <!-- LinkedIn -->
-         <div class="contact-item">
-            <a href="https://www.linkedin.com/in/snehakataria/" target="_blank" style="font-size:38px;color: black;">
-            <i class="fab fa-linkedin"></i>
-            <span>LinkedIn</span>
-            </a>
-         </div>
-         <!-- GitHub -->
-         <div class="contact-item">
-            <a href="https://github.com/sneha-kataria" target="_blank" style="font-size:38px;color: black;">
-            <i class="fab fa-github"></i>
-            <span>GitHub</span>
-            </a>
-         </div>
-         <!-- Email -->
-         <div class="contact-item">
-            <a href="mailto:snehakataria1244@gmail.com" style="font-size:38px;color: black;">
-            <i class="fas fa-envelope"></i>
-            <span>Email</span>
-            </a>
+      <div class="col-md-4">
+         <div class="contact-links">
+            <!-- LinkedIn -->
+            <div class="contact-item">
+               <a href="https://www.linkedin.com/in/snehakataria/" target="_blank" style="font-size:38px;color: black;">
+               <i class="fab fa-linkedin"></i>
+               <span>LinkedIn</span>
+               </a>
+            </div>
+            <!-- GitHub -->
+            <div class="contact-item">
+               <a href="https://github.com/sneha-kataria" target="_blank" style="font-size:38px;color: black;">
+               <i class="fab fa-github"></i>
+               <span>GitHub</span>
+               </a>
+            </div>
+            <!-- Email -->
+            <div class="contact-item">
+               <a href="mailto:snehakataria1244@gmail.com" style="font-size:38px;color: black;">
+               <i class="fas fa-envelope"></i>
+               <span>Email</span>
+               </a>
+            </div>
          </div>
       </div>
    </div>
 </div>
+
+
