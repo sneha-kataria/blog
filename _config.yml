@@ -25,9 +25,10 @@ authors:
     email:          snehakataria1244@gmail.com
     linkedin:       https://www.linkedin.com/in/snehakataria/
 
+google_analytics: G-K52C9QRRNY
+
 # Defaults
 defaults:
-
   # all posts
   - scope:
       path: "_posts"
